@@ -32,7 +32,9 @@ También están disponibles `npm start` y `npm run check` si tenés npm instalad
 - Instagram: https://www.instagram.com/velas.aromaticasluna/
 - WhatsApp: https://wa.me/5493515639634
 
-Cada producto incluye un enlace a WhatsApp con su nombre en la consulta. La persona confirma el envío desde WhatsApp.
+Cada producto permite elegir una cantidad y consultar por WhatsApp o sumarlo a una selección mayorista. Se pueden editar cantidades y quitar modelos antes de preparar una consulta conjunta. El formulario incluye datos opcionales del negocio y la localidad. La persona confirma el envío desde WhatsApp.
+
+La selección funciona en memoria durante la visita: se reinicia al recargar y no reserva stock ni confirma pedidos. Los mínimos de compra, precios, combinaciones y plazos deben confirmarse con la marca.
 
 ## Alcance
 
