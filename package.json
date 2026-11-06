@@ -1,0 +1,13 @@
+{
+  "name": "luna-velas-aromaticas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo de cat\u00e1logo de Luna Velas Arom\u00e1ticas",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check app.js && node --check server.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
