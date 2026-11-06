@@ -79,3 +79,8 @@ body{font-size:15px}nav{font-size:14px}.header-contact{font-size:12px}.button{fo
  .product:hover .product-photo>span:not(.hover-badge),.product:focus-visible .product-photo>span:not(.hover-badge),html.mouse-effects .product-photo.pointer-active>span:not(.hover-badge){opacity:1;transform:translateY(0);transition-delay:.15s}
  .product-title>span{transition:transform .7s cubic-bezier(.22,.61,.36,1)}
 }
+
+/* WhatsApp: a clear invitation with the brand icon on the right. */
+.whatsapp-float{border-radius:50%;box-shadow:0 7px 22px #173e2526;overflow:visible;transition:transform .5s ease,box-shadow .5s ease}.whatsapp-float:hover{transform:translateY(-3px);box-shadow:0 10px 26px #173e2533}.whatsapp-float>img{border-radius:50%}
+.product-whatsapp{justify-content:space-between;gap:16px;margin-top:17px;padding:13px 0 3px;min-height:58px;font-size:12px;letter-spacing:.1px;color:var(--ink);transition:color .5s ease,border-color .5s ease}.product-whatsapp>span{margin:0!important}.product-whatsapp>img{width:40px;height:40px;margin-left:auto;border-radius:50%;box-shadow:0 3px 10px #173e2514;transition:transform .6s cubic-bezier(.22,.61,.36,1),box-shadow .6s ease}.product-whatsapp:hover{border-color:var(--gold);color:var(--ink)}.product-whatsapp:hover>img{transform:translateY(-2px) scale(1.04);box-shadow:0 5px 14px #173e2526}
+@media(max-width:700px){.whatsapp-float{border-radius:50%}.product-whatsapp{font-size:10px;gap:8px;padding-top:11px;min-height:52px}.product-whatsapp>img{width:34px;height:34px}}
