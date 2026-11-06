@@ -87,6 +87,7 @@ function updateInquiryMessage(){
  if(note)message+='\n\n'+note;
  document.querySelector('#inquiry-text').textContent=message;
  document.querySelector('#whatsapp-inquiry').href='https://wa.me/5493515639634?text='+encodeURIComponent(message);
+ document.querySelector('.whatsapp-float').href='https://wa.me/5493515639634?text='+encodeURIComponent(message);
 }
 
 function configureInquiry(intent='casa',piece=null){inquiryIntent=intent;inquiryPiece=piece;document.querySelectorAll('[data-inquiry]').forEach(b=>{const selected=b.dataset.inquiry===intent;b.classList.toggle('active',selected);b.setAttribute('aria-pressed',String(selected))});document.querySelector('#inquiry-guidance').textContent=inquiryOptions[intent].guidance;document.querySelector('#inquiry-product').textContent=piece?`TU MENSAJE · ${piece.name}`:'ASÍ VA A LLEGAR TU MENSAJE';updateInquiryMessage()}
@@ -116,4 +117,4 @@ function updateOrderSummary(){
 }
 
 function validOrderQuantities(){for(const input of document.querySelectorAll('#order-lines input')){if(!input.reportValidity())return false}return true}
-document.querySelector('#whatsapp-inquiry').addEventListener('click',e=>{if(!validOrderQuantities())e.preventDefault()});
+document.querySelector('#whatsapp-inquiry').addEventListener('click',e=>{if(!validOrderQuantities())e.preventDefault()});document.querySelector('.whatsapp-float').addEventListener('click',e=>{if(!validOrderQuantities())e.preventDefault()});
