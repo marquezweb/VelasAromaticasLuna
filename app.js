@@ -1,40 +1,544 @@
 const wholesaleOrder=new Map();
 const items=[
-{name:'Ámbar',cat:'aromaticas',images:[2442,2441],text:'Vidrio ámbar, una tapa de madera y el sello de Luna. Una presencia cálida para sumar a tus momentos de todos los días.',presentation:'Vela en vaso de vidrio ámbar. Las fotos muestran una pieza y la presentación en conjunto.'},
-{name:'Flor de loto',cat:'molde',images:[2468],text:'Un relieve que se abre como una flor. Una pieza blanca que combina la luz de una vela con una forma para decorar.',presentation:'Vela en recipiente con diseño floral. Consultá materiales, tamaños y aromas.'},
-{name:'Vidrio facetado',cat:'aromaticas',images:[2451,2450],text:'Relieves que capturan la luz y una tapa con un detalle delicado. Una de las presentaciones de vidrio del universo Luna.',presentation:'Recipiente facetado con tapa. Las fotos muestran el modelo y otras piezas de la misma presentación.'},
-{name:'Burbuja',cat:'molde',images:[2497,2498],text:'Una forma lúdica, un blanco suave y una pequeña composición para regalar o decorar tu propio rincón.',presentation:'Referencia fotografiada con bandeja y accesorios. Consultá las opciones y qué incluye cada propuesta.'},
-{name:'Set de flores',cat:'regalos',images:[2489,2487],text:'Flores secas, un pequeño jarrón y una vela sobre una bandeja. Una combinación de detalles pensada para regalar.',presentation:'Composición de referencia y presentación en caja. Consultá colores, componentes y opciones.'},
-{name:'Souvenirs con ositos',cat:'regalos',images:['ositos'],text:'Un detalle para celebrar: ositos sobre velas en recipientes blancos con lazos celestes.',presentation:'Trabajo de Luna para un evento. Consultá opciones de personalización, cantidades y plazos.'},
-{name:'Hornito jaspeado',cat:'objetos',images:[2505,2504],text:'Un acabado de tonos suaves y textura visual. Un objeto para acompañar un rincón de bienestar en casa.',presentation:'Hornito de acabado jaspeado. Consultá materiales, medidas y accesorios incluidos.'},
-{name:'Jarrón & bandeja',cat:'objetos',images:[2518,2515],text:'Curvas suaves, una composición en blanco y flores decorativas. Una referencia para darle una nueva intención a un rincón de tu casa.',presentation:'Composición con jarrón y bandeja, y ejemplo de presentación en caja. Consultá qué incluye cada propuesta.'},
-{name:'Set de formas',cat:'regalos',images:[2481,2479],text:'Una silueta, una flor y una bandeja: piezas que se encuentran en una composición simple y delicada.',presentation:'Set decorativo de referencia. Consultá las combinaciones y qué incluye cada presentación.'},
-{name:'Relieves blancos',cat:'aromaticas',images:[2530,2527],text:'Superficies trenzadas y acanaladas que dialogan entre sí. La calidez de una vela en una composición de blancos.',presentation:'Dos modelos fotografiados juntos y su presentación en caja. Las opciones se consultan por separado.'}
-,{"name":"Frascos de color","cat":"aromaticas","images":[2439,2440],"text":"Recipientes de vidrio de color con el sello de Luna.","presentation":"Referencias de frascos en distintos colores. Consultá las opciones de cada modelo."},
-{"name":"Velas con mensajes","cat":"aromaticas","images":[2446],"text":"Una palabra que acompaña el momento: una de las presentaciones con mensajes de Luna.","presentation":"Modelo fotografiado con el mensaje «felicidad». Otros mensajes a confirmar."},
-{"name":"Acabado jaspeado","cat":"aromaticas","images":[2465],"text":"Una vela en un recipiente de textura visual jaspeada, en tonos grises.","presentation":"Consultá materiales, medidas y aromas de esta presentación."},
-{"name":"Textura trenzada","cat":"molde","images":[2467],"text":"Un recipiente blanco de relieves entrelazados que también decora.","presentation":"Vela en recipiente de textura trenzada. Características a confirmar con Luna."},
-{"name":"Vidrio acanalado","cat":"aromaticas","images":[2453],"text":"Una presentación en vidrio con relieves verticales y tapa decorativa.","presentation":"Modelo de vidrio acanalado fotografiado en el local."},
-{"name":"Recipiente floral","cat":"aromaticas","images":[2455],"text":"Un recipiente ilustrado con flores y hojas, con tapa a juego.","presentation":"Modelo con diseño botánico. Consultá aromas y opciones."},
-{"name":"Portavelas de formas","cat":"objetos","images":[2473,2474],"text":"Referencias de portavelas blancos con forma de corazón y de luna.","presentation":"Dos formas fotografiadas por separado. Consultá qué incluye cada opción."},
-{"name":"Hornito negro","cat":"objetos","images":[2152],"text":"Una forma ovalada y aberturas que distinguen esta presentación de hornito.","presentation":"Referencias de hornitos negros del local. Medidas, materiales y accesorios a confirmar."},
-{"name":"Fragancias para el hogar","cat":"ambiente","images":[2184],"text":"Una de las presentaciones Home Fragrance de Luna para explorar el universo de aromas de la marca.","presentation":"Consultá aromas, contenido y modo de uso de cada presentación."},
-{"name":"Difusores con varillas","cat":"ambiente","images":[2186],"text":"Una referencia de la propuesta de aromas con varillas fotografiada en el local.","presentation":"Consultá presentación, contenido, aromas y accesorios incluidos."},
-{"name":"Corazones","cat":"molde","images":[623265029],"text":"Una vela de corazones apilados, en una composición de tonos cálidos.","presentation":"Referencia de la fotografía proporcionada. Consultá medidas y qué incluye la propuesta."},
-{"name":"Souvenirs florales","cat":"regalos","images":[863112771],"text":"Velas en cuencos de madera, decoradas con flores secas para una celebración.","presentation":"Trabajo publicado por Luna. Opciones de personalización y pedidos a confirmar."},
-{"name":"Set arco","cat":"regalos","images":[2513],"text":"Un arco y una figura blanca reunidos sobre una bandeja.","presentation":"Composición de referencia. Consultá piezas, medidas y presentación."},
-{"name":"Set figura & flor","cat":"regalos","images":[2524,2521],"text":"Una figura y una pequeña vela floral en una composición delicada.","presentation":"Fotografías de la composición y su presentación en caja. Consultá qué incluye."}
+  {
+    "name": "Ámbar",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1003"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Flor de loto",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1136"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Vidrio facetado",
+    "cat": "aromaticas",
+    "images": [
+      "nov-995",
+      "nov-997"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Burbuja",
+    "cat": "molde",
+    "images": [
+      2497,
+      2498
+    ],
+    "text": "Velas de molde decorativas y temáticas para regalar o acompañar fechas especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Set de flores",
+    "cat": "regalos",
+    "images": [
+      "nov-1082",
+      "nov-1008"
+    ],
+    "text": "Box, combos y sets de velas con artículos de decoración para regalar.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Souvenirs con ositos",
+    "cat": "souvenirs",
+    "images": [
+      "ositos"
+    ],
+    "text": "Souvenirs personalizados para todo tipo de eventos, con nombres, fechas y presentaciones especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Hornito jaspeado",
+    "cat": "objetos",
+    "images": [
+      "nov-1051"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Jarrón & bandeja",
+    "cat": "objetos",
+    "images": [
+      2518,
+      2515
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Set de formas",
+    "cat": "regalos",
+    "images": [
+      2481,
+      2479
+    ],
+    "text": "Box, combos y sets de velas con artículos de decoración para regalar.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Relieves blancos",
+    "cat": "aromaticas",
+    "images": [
+      2530,
+      2527
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Frascos de color",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1001"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Velas con mensajes",
+    "cat": "aromaticas",
+    "images": [
+      "nov-988"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Acabado jaspeado",
+    "cat": "aromaticas",
+    "images": [
+      2465
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Textura trenzada",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1143"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Vidrio acanalado",
+    "cat": "aromaticas",
+    "images": [
+      "nov-990",
+      "nov-992"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Recipiente floral",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1038"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Portavelas de formas",
+    "cat": "objetos",
+    "images": [
+      "nov-1062"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Hornito negro",
+    "cat": "objetos",
+    "images": [
+      2152
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Fragancias para el hogar",
+    "cat": "ambiente",
+    "images": [
+      "nov-1015"
+    ],
+    "text": "Productos para la aromatización de ambientes.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Difusores con varillas",
+    "cat": "ambiente",
+    "images": [
+      "nov-1009",
+      2186
+    ],
+    "text": "Productos para la aromatización de ambientes.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Corazones",
+    "cat": "molde",
+    "images": [
+      623265029
+    ],
+    "text": "Velas de molde decorativas y temáticas para regalar o acompañar fechas especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Souvenirs florales",
+    "cat": "souvenirs",
+    "images": [
+      863112771
+    ],
+    "text": "Souvenirs personalizados para todo tipo de eventos, con nombres, fechas y presentaciones especiales.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Set arco",
+    "cat": "regalos",
+    "images": [
+      2513
+    ],
+    "text": "Box, combos y sets de velas con artículos de decoración para regalar.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Set figura & flor",
+    "cat": "regalos",
+    "images": [
+      2524,
+      2521
+    ],
+    "text": "Box, combos y sets de velas con artículos de decoración para regalar.",
+    "presentation": "La fotografía muestra una presentación de Luna. Consultá qué incluye este modelo y las opciones de personalización."
+  },
+  {
+    "name": "Margaritas",
+    "cat": "molde",
+    "images": [
+      "nov-1048"
+    ],
+    "text": "Velas de molde decorativas y temáticas para regalar o acompañar fechas especiales.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Souvenirs burbuja",
+    "cat": "souvenirs",
+    "images": [
+      "nov-1022"
+    ],
+    "text": "Souvenirs personalizados para todo tipo de eventos, con nombres, fechas y presentaciones especiales.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Souvenirs arco",
+    "cat": "souvenirs",
+    "images": [
+      "nov-1025"
+    ],
+    "text": "Souvenirs personalizados para todo tipo de eventos, con nombres, fechas y presentaciones especiales.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Mini velas en frascos",
+    "cat": "souvenirs",
+    "images": [
+      "nov-1027"
+    ],
+    "text": "Souvenirs personalizados para todo tipo de eventos, con nombres, fechas y presentaciones especiales.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Velas en cuencos de madera",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1031"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Box de margaritas",
+    "cat": "regalos",
+    "images": [
+      "nov-1047"
+    ],
+    "text": "Box, combos y sets de velas con artículos de decoración para regalar.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Florero arco",
+    "cat": "objetos",
+    "images": [
+      "nov-1067"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Florero circular",
+    "cat": "objetos",
+    "images": [
+      "nov-1069"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Bandejas con frases",
+    "cat": "objetos",
+    "images": [
+      "nov-1076"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Bandeja hoja",
+    "cat": "objetos",
+    "images": [
+      "nov-1077"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Bandeja ovalada",
+    "cat": "objetos",
+    "images": [
+      "nov-1095"
+    ],
+    "text": "Bandeja decorativa fotografiada con joyas. La línea de decoración de Luna incluye alhajeros y joyeros.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Bandejas corazón",
+    "cat": "objetos",
+    "images": [
+      "nov-1100"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Portavelas estrella",
+    "cat": "objetos",
+    "images": [
+      "nov-1105"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Cuencos de colores",
+    "cat": "objetos",
+    "images": [
+      "nov-1121"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Bandejas de colores",
+    "cat": "objetos",
+    "images": [
+      "nov-1125"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Bandejas con forma de concha",
+    "cat": "objetos",
+    "images": [
+      "nov-1126"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Macetas decoradas",
+    "cat": "objetos",
+    "images": [
+      "nov-1131"
+    ],
+    "text": "Artículos de decoración para mesas, estanterías y otros espacios.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Vela en recipiente acanalado",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1157"
+    ],
+    "text": "Velas aromáticas artesanales para regalar, decorar y acompañar momentos especiales.",
+    "presentation": "Modelo fotografiado por Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Box de aromatización",
+    "cat": "regalos",
+    "images": [
+      2181
+    ],
+    "text": "Combo de productos aromáticos presentado en box.",
+    "presentation": "Fotografía de Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Box con hornito y vela",
+    "cat": "regalos",
+    "images": [
+      2192
+    ],
+    "text": "Presentación en box con hornito y vela. Consultá los componentes de esta propuesta.",
+    "presentation": "Fotografía de Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Combo de vela y difusor",
+    "cat": "regalos",
+    "images": [
+      2217
+    ],
+    "text": "Vela y difusor aromático en una composición para regalar.",
+    "presentation": "Fotografía de Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Box de vela y decoración",
+    "cat": "regalos",
+    "images": [
+      2224
+    ],
+    "text": "Box con una vela y una pieza de decoración.",
+    "presentation": "Fotografía de Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Box de portavelas corazón",
+    "cat": "regalos",
+    "images": [
+      2493
+    ],
+    "text": "Portavelas con forma de corazón presentado en caja.",
+    "presentation": "Fotografía de Luna. Consultá qué incluye la presentación y las opciones para tu pedido."
+  },
+  {
+    "name": "Velas flotantes",
+    "cat": "aromaticas",
+    "images": [
+      "nov-1070",
+      "nov-1075"
+    ],
+    "text": "Velas flotantes, incluidas en la línea de velas aromáticas de Luna.",
+    "presentation": "Velas flotantes en la presentación fotografiada por Luna."
+  },
+  {
+    "name": "Velas de rosas",
+    "cat": "molde",
+    "images": [],
+    "text": "Velas de molde con forma de rosas y flores.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Velas de ositos",
+    "cat": "molde",
+    "images": [],
+    "text": "Velas de molde con forma de ositos.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Velas de estrellas",
+    "cat": "molde",
+    "images": [],
+    "text": "Velas de molde con forma de estrellas.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Arbolitos de Navidad",
+    "cat": "molde",
+    "images": [],
+    "text": "Velas en forma de arbolitos de Navidad.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Margaritas con tarjeta",
+    "cat": "souvenirs",
+    "images": [],
+    "text": "Margaritas aromáticas con tarjeta, para souvenirs personalizados.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Bombones aromáticos de cera",
+    "referenceImages": ["nov-1176",2192],
+    "cat": "souvenirs",
+    "images": [],
+    "text": "Bombones aromáticos de cera para souvenirs.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Tabletas aromáticas de cera",
+    "cat": "souvenirs",
+    "images": [],
+    "text": "Tabletas aromáticas de cera para souvenirs.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Tabletas aromáticas de yeso",
+    "cat": "souvenirs",
+    "images": [],
+    "text": "Tabletas aromáticas de yeso para souvenirs.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Difusores para autos",
+    "cat": "ambiente",
+    "images": [],
+    "text": "Difusores aromáticos para autos.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Aromatizadores textiles",
+    "referenceImages": ["nov-1015"],
+    "cat": "ambiente",
+    "images": [],
+    "text": "Aromatizadores textiles, parte de la línea de aromatización de Luna.",
+    "presentation": "Producto incluido en la oferta de Luna. Fotografía pendiente. Consultá las opciones de este modelo."
+  },
+  {
+    "name": "Souvenirs en organza",
+    "cat": "souvenirs",
+    "images": [
+      "nov-1176"
+    ],
+    "text": "Presentación de souvenirs en bolsita de organza.",
+    "presentation": "Fotografía de Luna. Consultá los modelos y componentes incluidos en esta presentación."
+  }
 ];
-const categoryNames={aromaticas:'AROMÁTICAS',molde:'FORMAS & TEXTURAS',regalos:'PARA REGALAR',objetos:'HORNITOS & OBJETOS',ambiente:'AROMAS PARA EL HOGAR'};
-const descriptions={todos:'Piezas elegidas para descubrir la variedad de Luna.',aromaticas:'Vidrio, luz y relieves para acompañar tus momentos.',molde:'Formas que invitan a mirar los detalles.',regalos:'Combinaciones para pensar en alguien especial.',objetos:'Objetos para darle una intención a tu espacio.',ambiente:'Fragancias y difusores fotografiados en el local de Luna.'};
+const categoryNames={aromaticas:'AROMÁTICAS',molde:'VELAS DE MOLDE',regalos:'BOX Y REGALOS',objetos:'DECORACIÓN & OBJETOS',ambiente:'AROMATIZACIÓN DE AMBIENTES',souvenirs:'SOUVENIRS PERSONALIZADOS'};
+const descriptions={pendientes:'8 fichas sin foto identificada y 2 con imágenes posibles a confirmar. Las dos referencias se muestran solo para confirmar su identidad; las otras ocho fichas conservan el espacio vacío.',souvenirs:'Souvenirs personalizados para todo tipo de eventos.',todos:'Velas aromáticas, decoración, souvenirs y regalos artesanales.',aromaticas:'Vidrio, luz y relieves para acompañar tus momentos.',molde:'Formas que invitan a mirar los detalles.',regalos:'Combinaciones para pensar en alguien especial.',objetos:'Objetos para darle una intención a tu espacio.',ambiente:'Fragancias y difusores fotografiados en el local de Luna.'};
+const orderStorageKey='luna.wholesale.v1';let orderStorageAvailable=true;
+function restoreOrder(){try{const saved=JSON.parse(localStorage.getItem(orderStorageKey)||'null');if(saved?.version!==1||!Array.isArray(saved.products))return;const known=new Set(items.map(i=>i.name));for(const row of saved.products.slice(0,items.length)){if(Array.isArray(row)&&known.has(row[0])&&Number.isInteger(row[1])&&row[1]>0&&row[1]<=100000)wholesaleOrder.set(row[0],row[1])}}catch{orderStorageAvailable=false}}
+function persistOrder(){try{if(wholesaleOrder.size)localStorage.setItem(orderStorageKey,JSON.stringify({version:1,products:[...wholesaleOrder]}));else localStorage.removeItem(orderStorageKey)}catch{orderStorageAvailable=false}document.querySelector('#order-storage').textContent=orderStorageAvailable?'Tu selección queda guardada en este navegador. No reserva stock ni confirma el pedido.':'Tu selección se conserva durante esta visita; este navegador no permite guardarla al recargar.'}
+restoreOrder();
+const normalizeSearch=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es').trim();
 const products=document.querySelector('#products'),dialog=document.querySelector('#detail'),motion=matchMedia('(prefers-reduced-motion: reduce)');
 let activeItems=items,activeItem=null,returnFocus=null,activeFilter="todos",catalogExpanded=false;
 const catalogCrops=new Set([2442,2468,2451,2497,2489,2505]);
 const asset=(id,small=false)=>`assets/luna-${id}${small?'-small':''}.webp`;
 function setImage(img,id,alt,sizes='(max-width:700px) 80vw,450px'){img.src=asset(id);img.srcset=`${asset(id,true)} 640w, ${asset(id)} 1200w`;img.sizes=sizes;img.alt=alt}
-function openDetail(item,trigger){if(trigger)returnFocus=trigger;activeItem=item;document.querySelector('#detail-title').textContent=item.name;document.querySelector('#detail-category').textContent=categoryNames[item.cat];document.querySelector('#detail-text').textContent=item.text;document.querySelector('#detail-presentation').textContent=item.presentation;document.querySelector('#detail-options').textContent=item.cat==='ambiente'?'Consultá contenido, aromas, accesorios y modo de uso.':item.cat==='objetos'?'Consultá materiales, medidas y accesorios incluidos.':'Consultá aromas, medidas y opciones de cada modelo.';document.querySelector('#product-position').textContent=`${activeItems.indexOf(item)+1} / ${activeItems.length}`;document.querySelectorAll('.detail-pagination button').forEach(b=>b.disabled=activeItems.length<2);const gallery=document.querySelector('#detail-gallery');gallery.replaceChildren();function show(id,i){setImage(document.querySelector('#detail-img'),id,`${item.name}, presentación ${i+1}`);document.querySelector('#photo-caption').textContent=item.images.length>1?`Presentación ${i+1} de ${item.images.length}`:'Una mirada al detalle';[...gallery.children].forEach((b,n)=>{b.classList.toggle('selected',n===i);b.setAttribute('aria-pressed',String(n===i))})}if(item.images.length>1)item.images.forEach((id,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`Ver ${item.name}, presentación ${i+1}`);b.innerHTML=`<img src="${asset(id,true)}" alt="" width="48" height="60">`;b.onclick=()=>show(id,i);gallery.append(b)});show(item.images[0],0);if(!dialog.open)dialog.showModal();else dialog.scrollTop=0}
-function render(filter='todos',expanded=false){activeFilter=filter;catalogExpanded=expanded;const matching=items.filter(x=>filter==='todos'||x.cat===filter);activeItems=filter==='todos'&&!expanded?matching.slice(0,6):matching;const more=document.querySelector('#catalog-more');more.hidden=filter!=='todos'||matching.length<=6;more.setAttribute('aria-expanded',String(expanded));more.innerHTML=expanded?'Ver menos <span>↑</span>':`Ver más productos (${matching.length-6}) <span>↓</span>`;products.replaceChildren();products.classList.toggle('filtered',filter!=='todos');activeItems.forEach((item,i)=>{const button=document.createElement('button');button.className='product';button.type='button';button.style.animationDelay=`${Math.min(i*45,225)}ms`;button.setAttribute('aria-label',`Ver detalle de ${item.name}`);button.innerHTML=`<div class="product-photo"><img src="${catalogCrops.has(item.images[0])?`assets/luna-${item.images[0]}-catalog.webp`:asset(item.images[0],true)}" sizes="(max-width:700px) 44vw,30vw" alt="${item.name}" width="640" height="853" loading="lazy"><span aria-hidden="true">Acercate al detalle ↗</span></div><div class="product-title"><h3>${item.name}</h3><span aria-hidden="true">↗</span></div><p>${categoryNames[item.cat]}</p>`;button.onclick=()=>openDetail(item,button);const entry=document.createElement('article');entry.className='product-entry';const whatsapp=document.createElement('a');whatsapp.className='product-whatsapp';whatsapp.href='https://wa.me/5493515639634?text='+encodeURIComponent(`Hola, Luna. Me interesa «${item.name}». ¿Me cuentan las opciones, presentación y disponibilidad?`);whatsapp.target='_blank';whatsapp.rel='noopener';whatsapp.setAttribute('aria-label',`Consultar por ${item.name} en WhatsApp`);whatsapp.innerHTML='<span>Consultar por WhatsApp</span><img src="assets/whatsapp-small.svg" width="17" height="17" alt="">';const controls=document.createElement('div');controls.className='wholesale-controls';const label=document.createElement('label');label.textContent='Cantidad';const quantity=document.createElement('input');quantity.type='number';quantity.min='1';quantity.max='100000';quantity.step='1';quantity.value=String(wholesaleOrder.get(item.name)||1);quantity.setAttribute('aria-label',`Cantidad de ${item.name}`);label.append(quantity);const add=document.createElement('button');add.type='button';add.className='order-add';add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido';const direct=()=>{const q=Number(quantity.value);const valid=quantity.validity.valid&&Number.isInteger(q)&&q>0;whatsapp.href=valid?'https://wa.me/5493515639634?text='+encodeURIComponent(`¡Hola, Luna! ✨ Vi «${item.name}» en el catálogo y me encantó. ¿Te puedo encargar ${q} ${q===1?'unidad':'unidades'}?`):'#';whatsapp.setAttribute('aria-disabled',String(!valid))};quantity.addEventListener('input',direct);whatsapp.addEventListener('click',e=>{if(!quantity.checkValidity()){e.preventDefault();quantity.reportValidity()}});add.onclick=()=>{if(!quantity.reportValidity())return;wholesaleOrder.set(item.name,Number(quantity.value));refreshOrder();document.querySelector('#order-status').textContent=`${item.name}: ${quantity.value} unidades en tu selección.`;add.textContent='Agregado ✓';setTimeout(()=>{if(add.isConnected)add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido'},1600)};direct();controls.append(label,add);entry.append(button,controls,whatsapp);products.append(entry)});document.querySelectorAll('[data-filter]').forEach(b=>{const current=b.dataset.filter===filter;b.classList.toggle('active',current);b.setAttribute('aria-pressed',String(current))});document.querySelector('#catalog-description').textContent=descriptions[filter];document.querySelector('#catalog-count').textContent=activeItems.length<matching.length?`${activeItems.length} de ${matching.length} propuestas`:`${activeItems.length} ${activeItems.length===1?'propuesta':'propuestas'}`}
-document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>render(b.dataset.filter));document.querySelectorAll('[data-select]').forEach(a=>a.addEventListener('click',()=>render(a.dataset.select)));document.querySelector('.close').onclick=()=>dialog.close();document.querySelector('#detail-contact').onclick=()=>{returnFocus=null;dialog.close()};dialog.addEventListener('close',()=>{if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true})});dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.target===dialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dialog.close()});function step(direction){const index=activeItems.indexOf(activeItem);openDetail(activeItems[(index+direction+activeItems.length)%activeItems.length])}document.querySelector('#previous-product').onclick=()=>step(-1);document.querySelector('#next-product').onclick=()=>step(1);render();
+function openDetail(item,trigger){const photos=item.images.length?item.images:(item.referenceImages||[]);if(trigger)returnFocus=trigger;activeItem=item;document.querySelector('#detail-title').textContent=item.name;document.querySelector('#detail-category').textContent=categoryNames[item.cat];document.querySelector('#detail-text').textContent=item.text;document.querySelector('#detail-presentation').textContent=item.presentation;document.querySelector('#detail-options').textContent=item.cat==='ambiente'?'Consultá contenido, aromas, accesorios y modo de uso.':item.cat==='objetos'?'Consultá materiales, medidas y accesorios incluidos.':'Consultá aromas, medidas y opciones de cada modelo.';document.querySelector('#product-position').textContent=`${activeItems.indexOf(item)+1} / ${activeItems.length}`;document.querySelectorAll('.detail-pagination button').forEach(b=>b.disabled=activeItems.length<2);const gallery=document.querySelector('#detail-gallery');gallery.replaceChildren();function show(id,i){setImage(document.querySelector('#detail-img'),id,`${item.name}, presentación ${i+1}`);document.querySelector('#photo-caption').textContent=!item.images.length&&photos.length?'Referencia a confirmar con Luna · No es una foto validada de este producto':photos.length>1?`Presentación ${i+1} de ${photos.length}`:'Una mirada al detalle';[...gallery.children].forEach((b,n)=>{b.classList.toggle('selected',n===i);b.setAttribute('aria-pressed',String(n===i))})}if(photos.length>1)photos.forEach((id,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`Ver ${item.name}, presentación ${i+1}`);b.innerHTML=`<img src="${asset(id,true)}" alt="" width="48" height="60">`;b.onclick=()=>show(id,i);gallery.append(b)});const hasPhoto=photos.length>0;document.querySelector('#detail-img').hidden=!hasPhoto;document.querySelector('.detail-placeholder').hidden=hasPhoto;document.querySelector('.zoom-open').hidden=!hasPhoto;if(hasPhoto)show(photos[0],0);else{document.querySelector('#detail-img').removeAttribute('src');document.querySelector('#detail-img').removeAttribute('srcset');document.querySelector('#detail-img').alt='';document.querySelector('#photo-caption').textContent='Fotografía pendiente'}if(!dialog.open)dialog.showModal();else dialog.scrollTop=0}
+function render(filter='todos',expanded=false){activeFilter=filter;catalogExpanded=expanded;const query=normalizeSearch(document.querySelector('#catalog-search').value),terms=query.split(/\s+/).filter(Boolean);const matching=items.filter(x=>(filter==='pendientes'?!x.images.length:filter==='todos'||x.cat===filter)&&terms.every(term=>normalizeSearch(x.name+' '+categoryNames[x.cat]).includes(term)));activeItems=filter==='todos'&&!expanded&&!query?matching.slice(0,6):matching;document.querySelector('#clear-search').hidden=!query;document.querySelector('#catalog-empty').hidden=matching.length>0;const more=document.querySelector('#catalog-more');more.hidden=!!query||filter!=='todos'||matching.length<=6;more.setAttribute('aria-expanded',String(expanded));more.innerHTML=expanded?'Ver menos <span>↑</span>':`Ver más productos (${matching.length-6}) <span>↓</span>`;products.replaceChildren();products.classList.toggle('filtered',filter!=='todos');activeItems.forEach((item,i)=>{const button=document.createElement('button');button.className='product';button.type='button';button.style.animationDelay=`${Math.min(i*45,225)}ms`;button.setAttribute('aria-label',`Ver detalle de ${item.name}`);button.innerHTML=`<div class="product-photo">${productPhotoMarkup(item)}${!item.images.length&&item.referenceImages?.length?'<b class="reference-badge">Imagen a confirmar</b>':''}<span aria-hidden="true">Acercate al detalle ↗</span></div><div class="product-title"><h3>${item.name}</h3><span aria-hidden="true">↗</span></div><p>${categoryNames[item.cat]}</p>${item.images.length?'':`<small class="pending-tag">${photoReviewText(item)}</small>`}`;button.onclick=()=>openDetail(item,button);const entry=document.createElement('article');entry.className='product-entry'+(query?'':' entrance-waiting');if(query)entry.dataset.staged='true';const whatsapp=document.createElement('a');whatsapp.className='product-whatsapp';whatsapp.href='https://wa.me/5493515639634?text='+encodeURIComponent(`Hola, Luna. Me interesa «${item.name}». ¿Me cuentan las opciones, presentación y disponibilidad?`);whatsapp.target='_blank';whatsapp.rel='noopener';whatsapp.setAttribute('aria-label',`Consultar por ${item.name} en WhatsApp`);whatsapp.innerHTML='<span>Consultar por WhatsApp</span><img src="assets/whatsapp-small.svg" width="17" height="17" alt="">';const controls=document.createElement('div');controls.className='wholesale-controls';const label=document.createElement('label');label.textContent='Cantidad';const quantity=document.createElement('input');quantity.type='number';quantity.required=true;quantity.min='1';quantity.max='100000';quantity.step='1';quantity.value=String(wholesaleOrder.get(item.name)||1);quantity.setAttribute('aria-label',`Cantidad de ${item.name}`);label.append(quantity);const add=document.createElement('button');add.type='button';add.className='order-add';add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido';const direct=()=>{const q=Number(quantity.value);const valid=quantity.validity.valid&&Number.isInteger(q)&&q>0;whatsapp.href=valid?'https://wa.me/5493515639634?text='+encodeURIComponent(`¡Hola, Luna! ✨ Vi «${item.name}» en el catálogo y me encantó. ¿Te puedo encargar ${q} ${q===1?'unidad':'unidades'}?`):'#';whatsapp.setAttribute('aria-disabled',String(!valid))};quantity.addEventListener('input',direct);whatsapp.addEventListener('click',e=>{if(!quantity.checkValidity()){e.preventDefault();quantity.reportValidity()}});add.onclick=()=>{if(!quantity.reportValidity())return;wholesaleOrder.set(item.name,Number(quantity.value));refreshOrder();document.querySelector('#order-status').textContent=`${item.name}: ${quantity.value} unidades en tu selección.`;add.textContent='Agregado ✓';setTimeout(()=>{if(add.isConnected)add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido'},1600)};direct();controls.append(label,add);entry.append(button,controls,whatsapp);products.append(entry)});document.querySelectorAll('[data-filter]').forEach(b=>{const current=b.dataset.filter===filter;b.classList.toggle('active',current);b.setAttribute('aria-pressed',String(current))});document.querySelector('#catalog-description').textContent=descriptions[filter];document.querySelector('#catalog-count').textContent=activeItems.length<matching.length?`${activeItems.length} de ${matching.length} propuestas`:`${activeItems.length} ${activeItems.length===1?'propuesta':'propuestas'}`}
+document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{clearTimeout(searchTimer);render(b.dataset.filter)});document.querySelectorAll('[data-select]').forEach(a=>a.addEventListener('click',()=>{clearTimeout(searchTimer);document.querySelector('#catalog-search').value='';render(a.dataset.select)}));document.querySelector('.close').onclick=()=>dialog.close();document.querySelector('#detail-contact').onclick=()=>{returnFocus=null;dialog.close()};dialog.addEventListener('close',()=>{if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true})});dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.target===dialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dialog.close()});function step(direction){const index=activeItems.indexOf(activeItem);openDetail(activeItems[(index+direction+activeItems.length)%activeItems.length])}document.querySelector('#previous-product').onclick=()=>step(-1);document.querySelector('#next-product').onclick=()=>step(1);render();
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('revealed');observer.unobserve(e.target)}}),{threshold:.06});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 const scenes=[{id:623265029,alt:'Vela de corazones apilados sobre una base decorativa',position:'50% 47%'},{id:628737162,alt:'Velas encendidas en vidrio acanalado sobre lino',position:'50% 65%'},{id:863112771,alt:'Souvenirs Luna en cuencos de madera con flores secas',position:'50% 50%'}];
 let sceneVersion=0,sceneIndex=0,sceneTimer=null,scenePaused=motion.matches,sceneHovered=false,sceneFocused=false,heroVisible=false,sceneAdvanced=false;
@@ -53,9 +557,6 @@ let scrollScheduled=false;function scrollUpdate(){const available=document.docum
 // A different atmosphere, with the same original photographs.
 const themeButton=document.querySelector('.night-toggle');
 themeButton.addEventListener('click',()=>{const night=document.documentElement.dataset.theme!=='night';const apply=()=>{document.documentElement.dataset.theme=night?'night':'day';themeButton.setAttribute('aria-pressed',String(night));themeButton.setAttribute('aria-label',night?'Volver a Luna de día':'Ver Luna de noche');themeButton.querySelector('[aria-hidden]').textContent=night?'☀':'☾';themeButton.querySelector('.night-label').textContent=night?'Modo día':'Modo noche';document.querySelector('meta[name="theme-color"]').content=night?'#211d19':'#f7f3eb'};if(document.startViewTransition&&!motion.matches)document.startViewTransition(apply);else apply()});
-const moments=[{image:2453,alt:'Vela en vidrio acanalado con tapa, fotografiada en el local Luna',word:'una pausa.',label:'01 / UN POCO DE CALMA',caption:'Bajar el ritmo. Mirar la luz. Hacer lugar a lo simple.',filter:'aromaticas',link:'Descubrí las aromáticas ↗'},{image:2518,alt:'Jarrón blanco con flores y bandeja decorativa de Luna',word:'mi propio rincón.',label:'02 / UN ESPACIO MUY TUYO',caption:'Mover un objeto. Sumar una textura. Volver a mirar tu espacio.',filter:'objetos',link:'Explorá los objetos ↗'},{image:2487,alt:'Set de regalo de Luna presentado en una caja con flores secas',word:'una alegría compartida.',label:'03 / PENSAR EN ALGUIEN',caption:'Elegir con cariño. Regalar un detalle. Compartir algo lindo.',filter:'regalos',link:'Inspirate para regalar ↗'}];
-let momentVersion=0;
-document.querySelectorAll('[data-moment]').forEach(button=>button.onclick=async()=>{const request=++momentVersion,m= moments[Number(button.dataset.moment)];const image=new Image();image.src=asset(m.image);try{await image.decode()}catch{return}if(request!==momentVersion)return;const photo=document.querySelector('#moment-image');setImage(photo,m.image,m.alt,'(max-width:700px) 100vw,55vw');document.querySelector('#moment-word').textContent=m.word;document.querySelector('#moment-photo-label').textContent=m.label;document.querySelector('#moment-caption').textContent=m.caption;const link=document.querySelector('#moment-link');link.textContent=m.link;link.dataset.select=m.filter;document.querySelectorAll('[data-moment]').forEach(b=>{const selected=b===button;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected))});if(!motion.matches){photo.animate([{opacity:.2},{opacity:1}],{duration:innerWidth<=700?1400:950,easing:'ease-in-out'});document.querySelector('#moment-word').animate([{opacity:.2,transform:'translateY(10px)'},{opacity:1,transform:'translateY(0)'}],{duration:innerWidth<=700?1100:650,easing:'ease-in-out'})}});
 const zoomDialog=document.querySelector('#photo-zoom'),zoomCanvas=document.querySelector('.zoom-canvas'),zoomScale=document.querySelector('#zoom-scale');
 function resetZoom(){document.querySelector('.zoom-help').textContent='Fotografía original de Luna · Ampliá para explorar sus texturas.';zoomCanvas.classList.remove('is-zoomed');zoomScale.textContent='Ampliar +';zoomScale.setAttribute('aria-pressed','false');zoomCanvas.scrollTop=0;zoomCanvas.scrollLeft=0}
 document.querySelector('.zoom-open').onclick=()=>{const src=document.querySelector('#detail-img');const img=document.querySelector('#zoom-image');img.src=src.src;img.alt=src.alt;resetZoom();zoomDialog.showModal()};document.querySelector('#zoom-close').onclick=()=>zoomDialog.close();zoomScale.onclick=()=>{const zoomed=zoomCanvas.classList.toggle('is-zoomed');zoomScale.textContent=zoomed?'Ajustar −':'Ampliar +';zoomScale.setAttribute('aria-pressed',String(zoomed));document.querySelector('.zoom-help').textContent=zoomed?'Desplazá la imagen para explorar los detalles.':'Fotografía original de Luna · Ampliá para explorar sus texturas.';if(!zoomed){zoomCanvas.scrollTop=0;zoomCanvas.scrollLeft=0}};zoomDialog.addEventListener('click',e=>{const r=zoomDialog.getBoundingClientRect();if(e.target===zoomDialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))zoomDialog.close()});zoomDialog.addEventListener('close',()=>document.querySelector('.zoom-open').focus({preventScroll:true}));
@@ -96,8 +597,17 @@ document.querySelectorAll('.inquiry-fields input,.inquiry-fields textarea').forE
 document.querySelectorAll('[data-inquiry]').forEach(b=>b.onclick=()=>configureInquiry(b.dataset.inquiry));document.querySelectorAll('[data-intent]').forEach(a=>a.addEventListener('click',()=>configureInquiry(a.dataset.intent)));document.querySelector('#detail-contact').addEventListener('click',()=>configureInquiry(activeItem?.cat==='regalos'?'regalo':'casa',activeItem));configureInquiry();
 
 // Animate visible content once, instead of running offscreen animations.
-const productEntrance=new IntersectionObserver(entries=>entries.forEach(entry=>{if(!entry.isIntersecting)return;productEntrance.unobserve(entry.target);if(!motion.matches)entry.target.animate([{opacity:0,transform:'translateY(18px)',offset:0},{opacity:.55,transform:'translateY(6px)',offset:.55},{opacity:1,transform:'translateY(0)',offset:1}],{duration:innerWidth<=700?2100:1800,delay:Number(entry.target.dataset.motionOrder||0)*150,easing:'cubic-bezier(.25,.1,.25,1)',fill:'backwards'})}),{threshold:.08});
-function stageProducts(){products.querySelectorAll('.product-entry:not([data-staged])').forEach((card,i)=>{card.dataset.staged='true';card.dataset.motionOrder=String(i%(innerWidth<=700?2:3));productEntrance.observe(card)})}stageProducts();new MutationObserver(records=>{records.forEach(record=>record.removedNodes.forEach(node=>{if(node.nodeType===1)productEntrance.unobserve(node)}));stageProducts()}).observe(products,{childList:true});
+const productEntrance=new IntersectionObserver(entries=>entries.forEach(entry=>{
+ if(!entry.isIntersecting)return;
+ const card=entry.target;productEntrance.unobserve(card);
+ if(!motion.matches){card.animate([{opacity:0,transform:'translateY(12px)'},{opacity:1,transform:'translateY(0)'}],{duration:innerWidth<=700?3000:2800,delay:Number(card.dataset.motionOrder||0)*100,easing:'ease-in-out',fill:'backwards'})}
+ card.classList.remove('entrance-waiting');
+}),{threshold:0,rootMargin:'0px 0px 100px 0px'});
+function stageProducts(){products.querySelectorAll('.product-entry:not([data-staged])').forEach((card,i)=>{card.dataset.staged='true';card.dataset.motionOrder=String(i%(innerWidth<=700?2:3));if(motion.matches)card.classList.remove('entrance-waiting');else productEntrance.observe(card)})}
+stageProducts();new MutationObserver(records=>{records.forEach(record=>record.removedNodes.forEach(node=>{if(node.nodeType===1)productEntrance.unobserve(node)}));stageProducts()}).observe(products,{childList:true});
+products.addEventListener('focusin',e=>{const card=e.target.closest('.product-entry');if(!card)return;productEntrance.unobserve(card);card.getAnimations().forEach(a=>a.cancel());card.classList.remove('entrance-waiting')});
+motion.addEventListener('change',()=>{if(motion.matches)products.querySelectorAll('.product-entry').forEach(card=>{productEntrance.unobserve(card);card.getAnimations().forEach(a=>a.cancel());card.classList.remove('entrance-waiting')})});
+
 new IntersectionObserver(entries=>entries.forEach(e=>e.target.classList.toggle('scene-in-view',e.isIntersecting)),{threshold:.1}).observe(heroPhoto);
 document.addEventListener('click',e=>{if(motion.matches||innerWidth<=700)return;const button=e.target.closest('.button');if(!button)return;const r=button.getBoundingClientRect(),pulse=document.createElement('span');pulse.className='effect-pulse';pulse.setAttribute('aria-hidden','true');pulse.style.left=`${e.detail?e.clientX-r.left:r.width/2}px`;pulse.style.top=`${e.detail?e.clientY-r.top:r.height/2}px`;button.append(pulse);pulse.animate([{opacity:.22,transform:'translate(-50%,-50%) scale(0)'},{opacity:0,transform:'translate(-50%,-50%) scale(1)'}],{duration:600,easing:'ease-out'}).onfinish=()=>pulse.remove()});
 
@@ -107,14 +617,25 @@ const souvenirVideoDialog=document.querySelector('#souvenir-video'),souvenirVide
 
 function refreshOrder(){
  const panel=document.querySelector('#pedido'),list=document.querySelector('#order-lines');panel.hidden=!wholesaleOrder.size;list.replaceChildren();
- for(const [name,count] of wholesaleOrder){const row=document.createElement('li'),title=document.createElement('span');title.textContent=name;const q=document.createElement('input');q.type='number';q.min='1';q.max='100000';q.step='1';q.value=count;q.setAttribute('aria-label','Cantidad seleccionada de '+name);q.oninput=()=>{if(!q.validity.valid)return;wholesaleOrder.set(name,Number(q.value));updateOrderSummary()};q.onchange=()=>q.reportValidity();const remove=document.createElement('button');remove.type='button';remove.textContent='Quitar';remove.setAttribute('aria-label','Quitar '+name+' del pedido');remove.onclick=()=>{wholesaleOrder.delete(name);refreshOrder();if(!wholesaleOrder.size)document.querySelector('#catalog-more').focus({preventScroll:true})};row.append(title,q,remove);list.append(row)}
+ for(const [name,count] of wholesaleOrder){const row=document.createElement('li'),title=document.createElement('span');title.textContent=name;const q=document.createElement('input');q.type='number';q.required=true;q.min='1';q.max='100000';q.step='1';q.value=count;q.setAttribute('aria-label','Cantidad seleccionada de '+name);q.oninput=()=>{if(!q.validity.valid)return;wholesaleOrder.set(name,Number(q.value));updateOrderSummary()};q.onchange=()=>q.reportValidity();const remove=document.createElement('button');remove.type='button';remove.textContent='Quitar';remove.setAttribute('aria-label','Quitar '+name+' del pedido');remove.onclick=()=>{wholesaleOrder.delete(name);refreshOrder();if(!wholesaleOrder.size)document.querySelector('#catalog-search').focus({preventScroll:true})};row.append(title,q,remove);list.append(row)}
  updateOrderSummary();
 }
 
 
 function updateOrderSummary(){
+ persistOrder();
  const total=[...wholesaleOrder.values()].reduce((a,b)=>a+b,0);document.querySelector('#order-total').textContent=total+(total===1?' unidad · ':' unidades · ')+wholesaleOrder.size+(wholesaleOrder.size===1?' modelo':' modelos');const shortcut=document.querySelector('#order-shortcut');shortcut.hidden=!wholesaleOrder.size;shortcut.textContent='Revisar mi pedido · '+total+(total===1?' unidad ↓':' unidades ↓');updateInquiryMessage();
 }
 
 function validOrderQuantities(){for(const input of document.querySelectorAll('#order-lines input')){if(!input.reportValidity())return false}return true}
 document.querySelector('#whatsapp-inquiry').addEventListener('click',e=>{if(!validOrderQuantities())e.preventDefault()});document.querySelector('.whatsapp-float').addEventListener('click',e=>{if(!validOrderQuantities())e.preventDefault()});
+
+function productPhotoMarkup(item){const photos=item.images.length?item.images:(item.referenceImages||[]);if(!photos.length)return '';const id=photos[0],src=catalogCrops.has(id)?`assets/luna-${id}-catalog.webp`:asset(id,true);return `<img src="${src}" sizes="(max-width:700px) 44vw,30vw" alt="${item.images.length?item.name:'Imagen de referencia a confirmar para '+item.name}" width="640" height="853" loading="lazy">`}
+
+function photoReviewText(item){if(item.name==='Bombones aromáticos de cera')return 'A confirmar: figuras de colores en IMG_1176 / IMG_2192.';if(item.name==='Aromatizadores textiles')return 'A confirmar: pulverizadores Home Fragrance, IMG_1011–1017.';return 'Falta foto identificada'}
+
+let searchTimer;
+document.querySelector('#catalog-search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>render(activeFilter),180)});
+document.querySelector('#clear-search').onclick=()=>{clearTimeout(searchTimer);document.querySelector('#catalog-search').value='';render(activeFilter);document.querySelector('#catalog-search').focus()};
+document.querySelector('#reset-search').onclick=()=>{clearTimeout(searchTimer);document.querySelector('#catalog-search').value='';render('todos');document.querySelector('#catalog-search').focus()};
+refreshOrder();
