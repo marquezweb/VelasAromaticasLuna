@@ -23,7 +23,7 @@ También están disponibles `npm start` y `npm run check` si tenés npm instalad
 
 - `index.html`: estructura y contenido de la página.
 - `style.css`: diseño adaptable, modo oscuro y efectos con soporte de movimiento reducido.
-- `app.js`: catálogo de 59 propuestas, filtros, detalles, galería y consultas.
+- `app.js`: catálogo de 63 líneas de productos, filtros, detalles, galería y consultas.
 - `assets/`: imágenes optimizadas, logo, ícono de WhatsApp y video de souvenirs.
 - `server.cjs`: servidor local sin dependencias.
 
@@ -38,7 +38,7 @@ La selección de modelos y cantidades se guarda localmente en este navegador y s
 
 ## Alcance
 
-Demo sin pagos, cuentas, base de datos ni carrito. No envía formularios ni mensajes automáticamente. Los nombres del catálogo son descriptivos; aromas, medidas, presentaciones y disponibilidad se confirman con la marca.
+Demo sin pagos, cuentas, base de datos ni carrito. No envía formularios ni mensajes automáticamente. Los nombres del catálogo siguen la lista de Luna; aromas, medidas, presentaciones y disponibilidad se confirman con la marca.
 
 Las fotos y el video fueron proporcionados para esta demo. Los recursos de marca y producto conservan sus derechos correspondientes; este repositorio no otorga una licencia de reutilización sobre ellos.
 
@@ -46,8 +46,8 @@ La web es estática y compatible con GitHub Pages. Si Pages está habilitado en 
 
 ## Actualización de noviembre
 
-Fotografías seleccionadas de Contenido noviembre y oferta de productos proporcionada por la marca. Ver `PRODUCTOS-LUNA.md` y `assets/NOVIEMBRE-SOURCES.json`. Los nombres de modelos son descriptivos de las fotografías; no se asignan medidas, fragancias ni mínimos sin confirmar.
+Fotografías seleccionadas de Contenido noviembre y oferta de productos proporcionada por la marca. Ver `PRODUCTOS-LUNA.md` y `assets/NOVIEMBRE-SOURCES.json`. Los nombres y rubros siguen la lista de Luna. Se agregan Cascadas de humo, confirmado por el cliente, y Hornitos aromáticos, documentado en una publicación de la marca. No se asignan medidas, fragancias ni mínimos sin confirmar.
 
-Las fichas incluyen 49 propuestas con foto identificada, 8 con un espacio de foto vacío y 2 con referencias marcadas explícitamente como imágenes a confirmar. El filtro rojo reúne estas 10 fichas pendientes. Ver `FOTOS-PENDIENTES-LUNA.md`.
+Las fichas incluyen 38 líneas con fotografías asignadas, 23 con foto vacía y 2 con referencias marcadas como imágenes a confirmar. El filtro rojo reúne estas 25 fichas pendientes de validación. Ver `FOTOS-PENDIENTES-LUNA.md`.
 
 El buscador filtra por nombre de producto y categoría, ignora tildes y mayúsculas y funciona junto con los filtros del catálogo.

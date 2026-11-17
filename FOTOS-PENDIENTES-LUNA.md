@@ -1,33 +1,45 @@
-# Revisión de las fotos pendientes
+# Fotografías pendientes de confirmar con Luna
 
-Se revisaron las 162 fotos HEIC de octubre, las 177 de noviembre y 30 archivos de Instagram. Los nombres nuevos son descriptivos de la imagen, no una confirmación de materiales, aromas o usos.
+Revisión con los nombres y rubros proporcionados por la marca. No se asignan materiales ni usos solo por semejanza visual.
 
-## Todavía sin foto identificable
+63 fichas: 38 con fotografías asignadas y 25 sin fotografía confirmada (23 vacías y 2 con referencias marcadas). Son líneas del catálogo: no necesariamente requieren 25 fotos nuevas; algunas pueden resolverse confirmando las correspondencias.
 
-| Ficha | Resultado |
-|---|---|
-| Velas de rosas | Las rosas vistas en floreros son decorativas; no hay identificación de vela de rosa. |
-| Velas de ositos | Tenemos ositos sobre velas en recipientes; falta una foto del modelo de vela de osito independiente. |
-| Velas de estrellas | Hay portavelas de vidrio en estrella (noviembre IMG_1105/1106), no una vela de molde de estrella. |
-| Arbolitos de Navidad | No se identificó este modelo en las fotos revisadas. |
-| Margaritas con tarjeta | Hay margaritas sueltas y en box, pero no una foto original clara con tarjeta personalizada. |
-| Tabletas aromáticas de cera | No se identificaron tabletas de este material. |
-| Tabletas aromáticas de yeso | No se identificaron tabletas de este material. |
-| Difusores para autos | Los frascos con etiqueta legible son difusores aromáticos; no están identificados para autos. |
+## Sin fotografía confirmada
 
-## Confirmar antes de pedir nuevas fotos
+- Velas con forma de rosas y flores.
+- Velas con forma de ositos.
+- Velas decorativas de diferentes tamaños.
+- Velas con motivos navideños.
+- Velas en forma de estrellas.
+- Velas en forma de arbolitos de Navidad.
+- Velas temáticas para fechas especiales.
+- Velas personalizadas para eventos.
+- Porta sahumerios.
+- Jaboneras.
+- Organizadores decorativos.
+- Macetas artesanales.
+- Piezas personalizadas en diferentes colores y diseños.
+- Velas en forma de flores.
+- Velas en forma de corazones.
+- Margaritas aromáticas con tarjeta.
+- Bombones aromáticos de cera — tiene imagen candidata para confirmar.
+- Tabletas aromáticas de cera.
+- Tabletas aromáticas de yeso.
+- Figuras decorativas en yeso.
+- Difusores aromáticos para autos.
+- Aromatizadores textiles — tiene imagen candidata para confirmar.
+- Tabletas aromáticas para espacios pequeños.
+- Regalos para cumpleaños.
+- Presentaciones especiales para empresas.
 
-| Ficha | Fotos candidatas | Qué confirmar |
-|---|---|---|
-| Bombones aromáticos de cera | Noviembre IMG_1176/1177 y octubre IMG_2192/2193 | Si las figuras pequeñas de colores son los bombones aromáticos de cera de la lista. |
-| Aromatizadores textiles | Noviembre IMG_1011–1017 y octubre IMG_2149, IMG_2244/2245 | Las etiquetas dicen Home Fragrance; confirmar si estos pulverizadores se usan también en textiles. |
+## Correcciones importantes
 
-## Ya resuelto en la revisión anterior
+- Cascadas de humo: IMG_2152 e IMG_2239, piezas negras con recorrido escalonado.
+- Hornitos aromáticos: noviembre IMG_1051 e IMG_2505, separados de las cascadas. Nombre documentado en una publicación de Luna.
+- Los conos de incienso de los boxes no son bombones de cera.
+- Las estrellas de vidrio son portavelas, no velas de molde ni artículos de yeso.
+- No se confirma yeso en macetas o porta sahumerios solo por la foto.
+- Las rosas de los floreros no prueban una vela de rosa.
+- Bombones de cera: confirmar noviembre IMG_1176. Textiles: confirmar si los pulverizadores Home Fragrance de noviembre IMG_1015 corresponden a esta línea.
 
-- Velas flotantes: noviembre IMG_1070 tiene la etiqueta «Velas flotantes» y IMG_1075 muestra un detalle. Ambas ya están en la ficha.
-- Organza: noviembre IMG_1176 muestra claramente la bolsita; la presentación ya está incorporada.
-- Box y combos: se localizaron imágenes existentes de regalos, difusores, velas y hornitos; no requieren pedir fotos nuevas de esas mismas composiciones.
-
-## Para la marca
-
-Pedir una toma del producto completo sobre fondo claro y una de detalle para los ocho tipos sin foto identificable. Para bombones y textiles, primero consultar por las imágenes candidatas. No hace falta fotografiar cada tipo de evento por separado si se utiliza el mismo modelo de souvenir.
+Ver la revisión visual local y CORRESPONDENCIA-CATALOGO.md para contrastar nombres, rubros y fotos.

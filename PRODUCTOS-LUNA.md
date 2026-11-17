@@ -86,3 +86,9 @@ En Luna Velas Aromáticas creamos productos artesanales hechos con dedicación, 
 ## Eventos
 
 Casamientos y bodas · Bautismos · Comuniones · Confirmaciones · Baby showers · Nacimientos · Cumpleaños de 15 · Cumpleaños de 18 · Cumpleaños de adultos · Aniversarios · Eventos empresariales · Celebraciones y fechas especiales.
+
+## Adiciones revisadas el 17/11/2026
+
+Cascadas de humo: incorporación confirmada por el cliente. Fotos IMG_2152 e IMG_2239.
+
+Hornitos aromáticos: nombre utilizado en una publicación de Luna (archivo original de Instagram 810900369_17887396944616587_348426212691422087_n.jpg). Fotos noviembre IMG_1051 e IMG_2505. Se mantienen separados de las cascadas.
