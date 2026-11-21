@@ -7,8 +7,7 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      "nov-1001",
-      "nov-1003"
+      "catalogo-nov-1038"
     ],
     "text": "Velas aromáticas en frascos de vidrio.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -20,8 +19,7 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      "nov-995",
-      "nov-990"
+      "catalogo-nov-0995"
     ],
     "text": "Velas en carameleras de vidrio.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -33,8 +31,7 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      2442,
-      2441
+      "catalogo-oct-2442"
     ],
     "text": "Velas en vasos de vidrio con tapa de madera.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -47,8 +44,7 @@ const items=[
       "souvenirs"
     ],
     "images": [
-      "nov-1033",
-      "nov-1031"
+      "catalogo-oct-2456"
     ],
     "text": "Velas en cuencos de madera.",
     "presentation": "Las fotos muestran velas en cuencos. Consultá las presentaciones de esta línea."
@@ -60,9 +56,7 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      2468,
-      2467,
-      2470
+      "catalogo-nov-1156"
     ],
     "text": "Velas en recipientes artesanales de yeso.",
     "presentation": "Las fotos muestran recipientes con vela y mecha visibles. Consultá los modelos y presentaciones de esta línea."
@@ -74,8 +68,7 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      "nov-1028",
-      "nov-1027"
+      "catalogo-nov-1028"
     ],
     "text": "Mini velas aromáticas.",
     "presentation": "Las fotos muestran frascos pequeños abiertos y cerrados. Consultá las presentaciones disponibles."
@@ -87,23 +80,22 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      "nov-1070",
-      "nov-1075"
+      "catalogo-nov-1075"
     ],
     "text": "Velas flotantes.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
   },
   {
-    "name": "Velas con flores secas decorativas",
+    "name": "Velas con flores secas en recipientes de corazón",
     "cat": "aromaticas",
     "categories": [
       "aromaticas"
     ],
     "images": [
-      863112771
+      "catalogo-nov-1183"
     ],
-    "text": "Velas con flores secas decorativas.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "text": "Velas con flores secas en recipientes de corazón.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Velas personalizadas con nombres y frases",
@@ -112,8 +104,7 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      2446,
-      "nov-988"
+      "catalogo-oct-2446"
     ],
     "text": "Velas personalizadas con nombres y frases.",
     "presentation": "Las fotos muestran velas con frases. Consultá con Luna las opciones de nombres y frases para tu pedido."
@@ -125,10 +116,22 @@ const items=[
       "aromaticas"
     ],
     "images": [
-      2527
+      "catalogo-oct-2477"
     ],
     "text": "Velas para regalar en box y combos especiales.",
     "presentation": "La fotografía muestra un box con velas. Consultá qué incluye la presentación que querés encargar."
+  },
+  {
+    "name": "Margaritas decorativas",
+    "cat": "molde",
+    "categories": [
+      "molde"
+    ],
+    "images": [
+      "catalogo-nov-1048"
+    ],
+    "text": "Margaritas decorativas.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Velas con forma de margaritas",
@@ -136,21 +139,31 @@ const items=[
     "categories": [
       "molde"
     ],
-    "images": [
-      "nov-1048"
-    ],
+    "images": [],
     "text": "Velas con forma de margaritas.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "presentation": "Fotografía del modelo pendiente de confirmación."
   },
   {
-    "name": "Velas con forma de rosas y flores",
+    "name": "Velas en forma de flor",
+    "cat": "molde",
+    "categories": [
+      "molde"
+    ],
+    "images": [
+      "catalogo-oct-2523"
+    ],
+    "text": "Velas en forma de flor.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
+  },
+  {
+    "name": "Velas con forma de rosas",
     "cat": "molde",
     "categories": [
       "molde"
     ],
     "images": [],
-    "text": "Velas con forma de rosas y flores.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "text": "Velas con forma de rosas.",
+    "presentation": "Fotografía del modelo pendiente de confirmación."
   },
   {
     "name": "Velas con forma de corazones",
@@ -182,21 +195,22 @@ const items=[
       "molde"
     ],
     "images": [
-      "nov-1022",
-      "nov-1025"
+      "catalogo-nov-1022"
     ],
     "text": "Velas con formas geométricas.",
     "presentation": "Las fotos muestran velas de formas geométricas. Consultá cómo se presentan y qué cantidad corresponde a cada pedido."
   },
   {
-    "name": "Velas decorativas de diferentes tamaños",
+    "name": "Velas decorativas de distintos tamaños",
     "cat": "molde",
     "categories": [
       "molde"
     ],
-    "images": [],
-    "text": "Velas decorativas de diferentes tamaños.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "images": [
+      "catalogo-nov-1144"
+    ],
+    "text": "Velas decorativas de distintos tamaños.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Velas con motivos navideños",
@@ -255,9 +269,7 @@ const items=[
       "objetos"
     ],
     "images": [
-      "nov-1095",
-      "nov-1077",
-      "nov-1125"
+      "catalogo-nov-1125"
     ],
     "text": "Bandejas decorativas.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -269,32 +281,34 @@ const items=[
       "objetos"
     ],
     "images": [
-      "nov-1121"
+      "catalogo-nov-1121"
     ],
     "text": "Cuencos artesanales.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
   },
   {
-    "name": "Porta velas",
+    "name": "Portavelas",
     "cat": "objetos",
     "categories": [
       "objetos"
     ],
     "images": [
-      "nov-1062"
+      "catalogo-nov-1062"
     ],
-    "text": "Porta velas.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "text": "Portavelas.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
-    "name": "Porta sahumerios",
+    "name": "Portasahumerios con frases",
     "cat": "objetos",
     "categories": [
       "objetos"
     ],
-    "images": [],
-    "text": "Porta sahumerios.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "images": [
+      "catalogo-nov-1076"
+    ],
+    "text": "Portasahumerios con frases.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Alhajeros",
@@ -303,10 +317,10 @@ const items=[
       "objetos"
     ],
     "images": [
-      "nov-1095"
+      "catalogo-nov-1095"
     ],
     "text": "Alhajeros.",
-    "presentation": "La fotografía muestra una bandeja para alhajas. Consultá los modelos disponibles; los objetos usados para ambientar la foto no definen el contenido del pedido."
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Joyeros",
@@ -315,10 +329,10 @@ const items=[
       "objetos"
     ],
     "images": [
-      "nov-1097"
+      "catalogo-nov-1095"
     ],
     "text": "Joyeros.",
-    "presentation": "La fotografía muestra una bandeja para joyas. Consultá los modelos disponibles; los objetos usados para ambientar la foto no definen el contenido del pedido."
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Jaboneras",
@@ -346,9 +360,11 @@ const items=[
     "categories": [
       "objetos"
     ],
-    "images": [],
+    "images": [
+      "catalogo-nov-1131"
+    ],
     "text": "Macetas artesanales.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Floreros",
@@ -357,8 +373,7 @@ const items=[
       "objetos"
     ],
     "images": [
-      "nov-1067",
-      "nov-1069"
+      "catalogo-nov-1067"
     ],
     "text": "Floreros.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -370,7 +385,7 @@ const items=[
       "objetos"
     ],
     "images": [
-      "nov-1080"
+      "catalogo-nov-1080"
     ],
     "text": "Figuras decorativas.",
     "presentation": "La fotografía muestra una figura sobre una base decorativa. Consultá las piezas y presentaciones disponibles."
@@ -382,7 +397,7 @@ const items=[
       "objetos"
     ],
     "images": [
-      "nov-1080"
+      "catalogo-nov-1165"
     ],
     "text": "Adornos para mesas y estanterías.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -502,7 +517,7 @@ const items=[
       "souvenirs"
     ],
     "images": [
-      "nov-1176"
+      "catalogo-nov-1177"
     ],
     "text": "Souvenirs en bolsitas de organza.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -520,16 +535,26 @@ const items=[
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
   },
   {
-    "name": "Presentaciones especiales con cintas, flores secas y tarjetas",
+    "name": "Presentaciones con flores y tarjeta",
     "cat": "souvenirs",
     "categories": [
       "souvenirs"
     ],
     "images": [
-      863112771
+      "catalogo-oct-2165"
     ],
+    "text": "Presentaciones con flores y tarjeta.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
+  },
+  {
+    "name": "Presentaciones especiales con cintas, flores secas y tarjetas",
+    "cat": "souvenirs",
+    "categories": [
+      "souvenirs"
+    ],
+    "images": [],
     "text": "Presentaciones especiales con cintas, flores secas y tarjetas.",
-    "presentation": "La fotografía muestra una presentación personalizada con flores y tarjetas, junto a una caja con cinta. Consultá cómo se prepara tu pedido."
+    "presentation": "Fotografía del modelo pendiente de confirmación."
   },
   {
     "name": "Difusores aromáticos con varillas",
@@ -538,8 +563,7 @@ const items=[
       "ambiente"
     ],
     "images": [
-      "nov-1009",
-      2186
+      "catalogo-nov-1009"
     ],
     "text": "Difusores aromáticos con varillas.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -574,7 +598,7 @@ const items=[
       "ambiente"
     ],
     "images": [
-      "nov-1015"
+      "catalogo-nov-1015"
     ],
     "text": "Aromatizadores de ambientes.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -596,7 +620,7 @@ const items=[
       "ambiente"
     ],
     "images": [
-      2181
+      "catalogo-oct-2218"
     ],
     "text": "Combos de productos aromáticos.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -608,7 +632,7 @@ const items=[
       "regalos"
     ],
     "images": [
-      2527
+      "catalogo-oct-2527"
     ],
     "text": "Box de velas aromáticas.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -620,22 +644,22 @@ const items=[
       "regalos"
     ],
     "images": [
-      2521
+      "catalogo-oct-2521"
     ],
     "text": "Box de velas y artículos de decoración.",
     "presentation": "La fotografía muestra una vela con forma de flor junto a piezas decorativas dentro de un box. Consultá los componentes de cada presentación."
   },
   {
-    "name": "Kits de bienestar y relajación",
+    "name": "Kit con cascada de humo y vela",
     "cat": "regalos",
     "categories": [
       "regalos"
     ],
     "images": [
-      2192
+      "catalogo-oct-2192"
     ],
-    "text": "Kits de bienestar y relajación.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "text": "Kit con cascada de humo y vela.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Combos de difusores y aromatizadores",
@@ -644,8 +668,7 @@ const items=[
       "regalos"
     ],
     "images": [
-      2181,
-      2186
+      "catalogo-oct-2181"
     ],
     "text": "Combos de difusores y aromatizadores.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -657,8 +680,7 @@ const items=[
       "regalos"
     ],
     "images": [
-      2497,
-      2481
+      "catalogo-oct-2481"
     ],
     "text": "Sets de velas con bandejas decorativas.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -670,7 +692,7 @@ const items=[
       "regalos"
     ],
     "images": [
-      2178
+      "catalogo-oct-2178"
     ],
     "text": "Box para el Día de la Madre.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
@@ -684,6 +706,18 @@ const items=[
     "images": [],
     "text": "Regalos para cumpleaños.",
     "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+  },
+  {
+    "name": "Regalos para ocasiones especiales",
+    "cat": "regalos",
+    "categories": [
+      "regalos"
+    ],
+    "images": [
+      "catalogo-oct-2508"
+    ],
+    "text": "Regalos para ocasiones especiales.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
     "name": "Regalos personalizados",
@@ -714,8 +748,7 @@ const items=[
       "ambiente"
     ],
     "images": [
-      2152,
-      2239
+      "catalogo-oct-2239"
     ],
     "text": "Cascadas de humo para conos de incienso de reflujo.",
     "presentation": "Consultá las presentaciones disponibles y los accesorios incluidos."
@@ -727,14 +760,13 @@ const items=[
       "ambiente"
     ],
     "images": [
-      "nov-1051",
-      2505
+      "catalogo-nov-1051"
     ],
     "text": "Hornitos aromáticos.",
     "presentation": "Consultá las presentaciones disponibles y los accesorios incluidos."
   }
 ];
-const categoryNames={"aromaticas": "VELAS AROMÁTICAS", "molde": "VELAS DE MOLDE", "objetos": "ARTÍCULOS DE DECORACIÓN EN YESO", "souvenirs": "SOUVENIRS PERSONALIZADOS", "ambiente": "AROMATIZACIÓN DE AMBIENTES", "regalos": "BOX Y REGALOS ESPECIALES"};
+const categoryNames={"aromaticas": "VELAS AROMÁTICAS", "molde": "VELAS DE MOLDE Y DECORATIVAS", "objetos": "DECORACIÓN", "souvenirs": "SOUVENIRS PERSONALIZADOS", "ambiente": "AROMATIZACIÓN DE AMBIENTES", "regalos": "BOX Y REGALOS ESPECIALES"};
 const descriptions={pendientes:'8 fichas sin foto identificada y 2 con imágenes posibles a confirmar. Las dos referencias se muestran solo para confirmar su identidad; las otras ocho fichas conservan el espacio vacío.',souvenirs:'Souvenirs personalizados para todo tipo de eventos.',todos:'Velas aromáticas, decoración, souvenirs y regalos artesanales.',aromaticas:'Vidrio, luz y relieves para acompañar tus momentos.',molde:'Formas que invitan a mirar los detalles.',regalos:'Combinaciones para pensar en alguien especial.',objetos:'Objetos para darle una intención a tu espacio.',ambiente:'Fragancias y difusores fotografiados en el local de Luna.'};
 let orderCatalogChanged=false;
 const orderStorageKey='luna.wholesale.v1';let orderStorageAvailable=true;
