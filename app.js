@@ -53,25 +53,33 @@ const items=[
     "name": "Velas en recipientes artesanales de yeso",
     "cat": "aromaticas",
     "categories": [
-      "aromaticas"
+      "aromaticas",
+      "souvenirs"
     ],
     "images": [
       "catalogo-nov-1156"
     ],
     "text": "Velas en recipientes artesanales de yeso.",
-    "presentation": "Las fotos muestran recipientes con vela y mecha visibles. Consultá los modelos y presentaciones de esta línea."
+    "presentation": "Las fotos muestran recipientes con vela y mecha visibles. Consultá los modelos y presentaciones de esta línea.",
+    "aliases": [
+      "Velas en recipientes de yeso"
+    ]
   },
   {
     "name": "Mini velas aromáticas",
     "cat": "aromaticas",
     "categories": [
-      "aromaticas"
+      "aromaticas",
+      "souvenirs"
     ],
     "images": [
       "catalogo-nov-1028"
     ],
     "text": "Mini velas aromáticas.",
-    "presentation": "Las fotos muestran frascos pequeños abiertos y cerrados. Consultá las presentaciones disponibles."
+    "presentation": "Las fotos muestran frascos pequeños abiertos y cerrados. Consultá las presentaciones disponibles.",
+    "aliases": [
+      "Mini velas aromáticas en frascos"
+    ]
   },
   {
     "name": "Velas flotantes",
@@ -125,7 +133,8 @@ const items=[
     "name": "Margaritas decorativas",
     "cat": "molde",
     "categories": [
-      "molde"
+      "molde",
+      "souvenirs"
     ],
     "images": [
       "catalogo-nov-1048"
@@ -141,7 +150,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas con forma de margaritas.",
-    "presentation": "Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas en forma de flor",
@@ -163,7 +172,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas con forma de rosas.",
-    "presentation": "Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas con forma de corazones",
@@ -171,11 +180,9 @@ const items=[
     "categories": [
       "molde"
     ],
-    "images": [
-      623265029
-    ],
+    "images": [],
     "text": "Velas con forma de corazones.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas con forma de ositos",
@@ -186,7 +193,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas con forma de ositos.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas con formas geométricas",
@@ -220,7 +227,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas con motivos navideños.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas en forma de estrellas",
@@ -230,7 +237,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas en forma de estrellas.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas en forma de arbolitos de Navidad",
@@ -240,7 +247,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas en forma de arbolitos de Navidad.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas temáticas para fechas especiales",
@@ -250,7 +257,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas temáticas para fechas especiales.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas personalizadas para eventos",
@@ -260,7 +267,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas personalizadas para eventos.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Bandejas decorativas",
@@ -311,7 +318,7 @@ const items=[
     "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
-    "name": "Alhajeros",
+    "name": "Joyeros y alhajeros",
     "cat": "objetos",
     "categories": [
       "objetos"
@@ -319,20 +326,12 @@ const items=[
     "images": [
       "catalogo-nov-1095"
     ],
-    "text": "Alhajeros.",
-    "presentation": "Consultá con Luna las opciones y la disponibilidad."
-  },
-  {
-    "name": "Joyeros",
-    "cat": "objetos",
-    "categories": [
-      "objetos"
-    ],
-    "images": [
-      "catalogo-nov-1095"
-    ],
-    "text": "Joyeros.",
-    "presentation": "Consultá con Luna las opciones y la disponibilidad."
+    "text": "Joyeros y alhajeros.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad.",
+    "aliases": [
+      "Joyeros",
+      "Alhajeros"
+    ]
   },
   {
     "name": "Jaboneras",
@@ -342,7 +341,7 @@ const items=[
     ],
     "images": [],
     "text": "Jaboneras.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Organizadores decorativos",
@@ -352,7 +351,7 @@ const items=[
     ],
     "images": [],
     "text": "Organizadores decorativos.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Macetas artesanales",
@@ -410,32 +409,7 @@ const items=[
     ],
     "images": [],
     "text": "Piezas personalizadas en diferentes colores y diseños.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
-  },
-  {
-    "name": "Mini velas aromáticas en frascos",
-    "cat": "souvenirs",
-    "categories": [
-      "souvenirs"
-    ],
-    "images": [
-      "nov-1028",
-      "nov-1027"
-    ],
-    "text": "Mini velas aromáticas en frascos.",
-    "presentation": "Las fotos muestran frascos pequeños abiertos y cerrados. Consultá las opciones de personalización y presentación para tu evento."
-  },
-  {
-    "name": "Velas en recipientes de yeso",
-    "cat": "souvenirs",
-    "categories": [
-      "souvenirs"
-    ],
-    "images": [
-      2470
-    ],
-    "text": "Velas en recipientes de yeso.",
-    "presentation": "La fotografía muestra un recipiente abierto con vela y mecha visibles. Consultá las opciones de personalización y presentación para tu evento."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas en forma de flores",
@@ -445,7 +419,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas en forma de flores.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Velas en forma de corazones",
@@ -455,7 +429,7 @@ const items=[
     ],
     "images": [],
     "text": "Velas en forma de corazones.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Margaritas aromáticas con tarjeta",
@@ -465,7 +439,7 @@ const items=[
     ],
     "images": [],
     "text": "Margaritas aromáticas con tarjeta.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Bombones aromáticos de cera",
@@ -475,10 +449,7 @@ const items=[
     ],
     "images": [],
     "text": "Bombones aromáticos de cera.",
-    "presentation": "Las figuras de colores son una referencia a confirmar con Luna. No se identifican como cera solo por la imagen.",
-    "referenceImages": [
-      "nov-1176"
-    ]
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Tabletas aromáticas de cera",
@@ -488,7 +459,7 @@ const items=[
     ],
     "images": [],
     "text": "Tabletas aromáticas de cera.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Tabletas aromáticas de yeso",
@@ -498,7 +469,7 @@ const items=[
     ],
     "images": [],
     "text": "Tabletas aromáticas de yeso.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Figuras decorativas en yeso",
@@ -508,7 +479,7 @@ const items=[
     ],
     "images": [],
     "text": "Figuras decorativas en yeso.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Souvenirs en bolsitas de organza",
@@ -528,11 +499,9 @@ const items=[
     "categories": [
       "souvenirs"
     ],
-    "images": [
-      863112771
-    ],
+    "images": [],
     "text": "Souvenirs con etiquetas, nombres y fechas personalizadas.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Presentaciones con flores y tarjeta",
@@ -554,7 +523,7 @@ const items=[
     ],
     "images": [],
     "text": "Presentaciones especiales con cintas, flores secas y tarjetas.",
-    "presentation": "Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Difusores aromáticos con varillas",
@@ -576,7 +545,7 @@ const items=[
     ],
     "images": [],
     "text": "Difusores aromáticos para autos.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Aromatizadores textiles",
@@ -586,10 +555,7 @@ const items=[
     ],
     "images": [],
     "text": "Aromatizadores textiles.",
-    "presentation": "La etiqueta fotografiada dice Home Fragrance. Luna debe confirmar si esta presentación corresponde a uso textil.",
-    "referenceImages": [
-      "nov-1015"
-    ]
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Aromatizadores de ambientes",
@@ -611,7 +577,7 @@ const items=[
     ],
     "images": [],
     "text": "Tabletas aromáticas para espacios pequeños.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Combos de productos aromáticos",
@@ -705,7 +671,7 @@ const items=[
     ],
     "images": [],
     "text": "Regalos para cumpleaños.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Regalos para ocasiones especiales",
@@ -725,11 +691,9 @@ const items=[
     "categories": [
       "regalos"
     ],
-    "images": [
-      863112771
-    ],
+    "images": [],
     "text": "Regalos personalizados.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Presentaciones especiales para empresas",
@@ -739,7 +703,7 @@ const items=[
     ],
     "images": [],
     "text": "Presentaciones especiales para empresas.",
-    "presentation": "Producto incluido en la lista proporcionada por Luna. Fotografía del modelo pendiente de confirmación."
+    "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
     "name": "Cascadas de humo",
@@ -767,10 +731,39 @@ const items=[
   }
 ];
 const categoryNames={"aromaticas": "VELAS AROMÁTICAS", "molde": "VELAS DE MOLDE Y DECORATIVAS", "objetos": "DECORACIÓN", "souvenirs": "SOUVENIRS PERSONALIZADOS", "ambiente": "AROMATIZACIÓN DE AMBIENTES", "regalos": "BOX Y REGALOS ESPECIALES"};
-const descriptions={pendientes:'8 fichas sin foto identificada y 2 con imágenes posibles a confirmar. Las dos referencias se muestran solo para confirmar su identidad; las otras ocho fichas conservan el espacio vacío.',souvenirs:'Souvenirs personalizados para todo tipo de eventos.',todos:'Velas aromáticas, decoración, souvenirs y regalos artesanales.',aromaticas:'Vidrio, luz y relieves para acompañar tus momentos.',molde:'Formas que invitan a mirar los detalles.',regalos:'Combinaciones para pensar en alguien especial.',objetos:'Objetos para darle una intención a tu espacio.',ambiente:'Fragancias y difusores fotografiados en el local de Luna.'};
+const descriptions={pendientes:'Podés consultar con Luna por cualquiera de estos modelos.',souvenirs:'Souvenirs personalizados para todo tipo de eventos.',todos:'Velas aromáticas, decoración, souvenirs y regalos artesanales.',aromaticas:'Vidrio, luz y relieves para acompañar tus momentos.',molde:'Formas que invitan a mirar los detalles.',regalos:'Combinaciones para pensar en alguien especial.',objetos:'Objetos para darle una intención a tu espacio.',ambiente:'Fragancias y difusores fotografiados en el local de Luna.'};
 let orderCatalogChanged=false;
 const orderStorageKey='luna.wholesale.v1';let orderStorageAvailable=true;
-function restoreOrder(){try{let saved;try{saved=JSON.parse(localStorage.getItem(orderStorageKey)||'null')}catch{return}if(saved?.version!==1||!Array.isArray(saved.products))return;const known=new Set(items.map(i=>i.name));for(const row of saved.products.slice(0,200)){if(!Array.isArray(row)||!Number.isInteger(row[1])||row[1]<1||row[1]>100000)continue;if(known.has(row[0]))wholesaleOrder.set(row[0],row[1]);else orderCatalogChanged=true}if(orderCatalogChanged){const backup=orderStorageKey+'.antes-de-revision';if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));document.querySelector('#catalog-update-note').hidden=false}}catch{orderStorageAvailable=false}}
+function restoreOrder(){
+    try {
+        let saved;
+        try { saved=JSON.parse(localStorage.getItem(orderStorageKey)||'null'); }
+        catch { return; }
+        if(saved?.version!==1 || !Array.isArray(saved.products))return;
+
+        const orderNames=new Map(items.map(item=>[item.name,item.name]));
+        for(const item of items)
+            for(const alias of item.aliases||[])
+                if(!orderNames.has(alias))orderNames.set(alias,item.name);
+
+        for(const row of saved.products.slice(0,200)){
+            if(!Array.isArray(row)||!Number.isInteger(row[1])||row[1]<1||row[1]>100000)continue;
+            const name=orderNames.get(row[0]);
+            if(!name){
+                orderCatalogChanged=true;
+                continue;
+            }
+            const quantity=(wholesaleOrder.get(name)||0)+row[1];
+            wholesaleOrder.set(name,Math.min(quantity,100000));
+            if(quantity>100000)orderCatalogChanged=true;
+        }
+        if(orderCatalogChanged){
+            const backup=orderStorageKey+'.antes-de-revision';
+            if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));
+            document.querySelector('#catalog-update-note').hidden=false;
+        }
+    } catch { orderStorageAvailable=false; }
+}
 function persistOrder(){try{if(wholesaleOrder.size)localStorage.setItem(orderStorageKey,JSON.stringify({version:1,products:[...wholesaleOrder]}));else localStorage.removeItem(orderStorageKey)}catch{orderStorageAvailable=false}document.querySelector('#order-storage').textContent=orderStorageAvailable?'Tu selección queda guardada en este navegador. No reserva stock ni confirma el pedido.':'Tu selección se conserva durante esta visita; este navegador no permite guardarla al recargar.'}
 restoreOrder();
 const normalizeSearch=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es').trim();
@@ -779,8 +772,8 @@ let activeItems=items,activeItem=null,returnFocus=null,activeFilter="todos",cata
 const catalogCrops=new Set([2442,2468,2451,2497,2489,2505]);
 const asset=(id,small=false)=>`assets/luna-${id}${small?'-small':''}.webp`;
 function setImage(img,id,alt,sizes='(max-width:700px) 80vw,450px'){img.src=asset(id);img.srcset=`${asset(id,true)} 640w, ${asset(id)} 1200w`;img.sizes=sizes;img.alt=alt}
-function openDetail(item,trigger){const photos=item.images.length?item.images:(item.referenceImages||[]);if(trigger)returnFocus=trigger;activeItem=item;document.querySelector('#detail-title').textContent=item.name;document.querySelector('#detail-category').textContent=item.categories.map(c=>categoryNames[c]).join(' · ');document.querySelector('#detail-text').textContent=item.text;document.querySelector('#detail-presentation').textContent=item.presentation;document.querySelector('#detail-options').textContent=item.cat==='ambiente'?'Consultá contenido, aromas, accesorios y modo de uso.':item.cat==='objetos'?'Consultá materiales, medidas y accesorios incluidos.':'Consultá aromas, medidas y opciones de cada modelo.';document.querySelector('#product-position').textContent=`${activeItems.indexOf(item)+1} / ${activeItems.length}`;document.querySelectorAll('.detail-pagination button').forEach(b=>b.disabled=activeItems.length<2);const gallery=document.querySelector('#detail-gallery');gallery.replaceChildren();function show(id,i){setImage(document.querySelector('#detail-img'),id,`${item.name}, presentación ${i+1}`);document.querySelector('#photo-caption').textContent=!item.images.length&&photos.length?'Referencia a confirmar con Luna · No es una foto validada de este producto':photos.length>1?`Presentación ${i+1} de ${photos.length}`:'Una mirada al detalle';[...gallery.children].forEach((b,n)=>{b.classList.toggle('selected',n===i);b.setAttribute('aria-pressed',String(n===i))})}if(photos.length>1)photos.forEach((id,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`Ver ${item.name}, presentación ${i+1}`);b.innerHTML=`<img src="${asset(id,true)}" alt="" width="48" height="60">`;b.onclick=()=>show(id,i);gallery.append(b)});const hasPhoto=photos.length>0;document.querySelector('#detail-img').hidden=!hasPhoto;document.querySelector('.detail-placeholder').hidden=hasPhoto;document.querySelector('.zoom-open').hidden=!hasPhoto;if(hasPhoto)show(photos[0],0);else{document.querySelector('#detail-img').removeAttribute('src');document.querySelector('#detail-img').removeAttribute('srcset');document.querySelector('#detail-img').alt='';document.querySelector('#photo-caption').textContent='Fotografía pendiente'}if(!dialog.open)dialog.showModal();else dialog.scrollTop=0}
-function render(filter='todos',expanded=false){activeFilter=filter;catalogExpanded=expanded;const query=normalizeSearch(document.querySelector('#catalog-search').value),terms=query.split(/\s+/).filter(Boolean);const matching=items.filter(x=>(filter==='pendientes'?!x.images.length:filter==='todos'||x.categories.includes(filter))&&terms.every(term=>normalizeSearch(x.name+' '+x.categories.map(c=>categoryNames[c]).join(' ')).includes(term)));activeItems=filter==='todos'&&!expanded&&!query?matching.slice(0,6):matching;document.querySelector('#clear-search').hidden=!query;document.querySelector('#catalog-empty').hidden=matching.length>0;const more=document.querySelector('#catalog-more');more.hidden=!!query||filter!=='todos'||matching.length<=6;more.setAttribute('aria-expanded',String(expanded));more.innerHTML=expanded?'Ver menos <span>↑</span>':`Ver más productos (${matching.length-6}) <span>↓</span>`;products.replaceChildren();products.classList.toggle('filtered',filter!=='todos');activeItems.forEach((item,i)=>{const button=document.createElement('button');button.className='product';button.type='button';button.style.animationDelay=`${Math.min(i*45,225)}ms`;button.setAttribute('aria-label',`Ver detalle de ${item.name}`);button.innerHTML=`<div class="product-photo">${productPhotoMarkup(item)}${!item.images.length&&item.referenceImages?.length?'<b class="reference-badge">Imagen a confirmar</b>':''}<span aria-hidden="true">Acercate al detalle ↗</span></div><div class="product-title"><h3>${item.name}</h3><span aria-hidden="true">↗</span></div><p>${item.categories.map(c=>categoryNames[c]).join(' · ')}</p>${item.images.length?'':`<small class="pending-tag">${photoReviewText(item)}</small>`}`;button.onclick=()=>openDetail(item,button);const entry=document.createElement('article');entry.className='product-entry'+(query?'':' entrance-waiting');if(query)entry.dataset.staged='true';const whatsapp=document.createElement('a');whatsapp.className='product-whatsapp';whatsapp.href='https://wa.me/5493515639634?text='+encodeURIComponent(`Hola, Luna. Me interesa «${item.name}». ¿Me cuentan las opciones, presentación y disponibilidad?`);whatsapp.target='_blank';whatsapp.rel='noopener';whatsapp.setAttribute('aria-label',`Consultar por ${item.name} en WhatsApp`);whatsapp.innerHTML='<span>Consultar por WhatsApp</span><img src="assets/whatsapp-small.svg" width="17" height="17" alt="">';const controls=document.createElement('div');controls.className='wholesale-controls';const label=document.createElement('label');label.textContent='Cantidad';const quantity=document.createElement('input');quantity.type='number';quantity.required=true;quantity.min='1';quantity.max='100000';quantity.step='1';quantity.value=String(wholesaleOrder.get(item.name)||1);quantity.setAttribute('aria-label',`Cantidad de ${item.name}`);label.append(quantity);const add=document.createElement('button');add.type='button';add.className='order-add';add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido';const direct=()=>{const q=Number(quantity.value);const valid=quantity.validity.valid&&Number.isInteger(q)&&q>0;whatsapp.href=valid?'https://wa.me/5493515639634?text='+encodeURIComponent(`¡Hola, Luna! ✨ Vi «${item.name}» en el catálogo y me encantó. ¿Te puedo encargar ${q} ${q===1?'unidad':'unidades'}?`):'#';whatsapp.setAttribute('aria-disabled',String(!valid))};quantity.addEventListener('input',direct);whatsapp.addEventListener('click',e=>{if(!quantity.checkValidity()){e.preventDefault();quantity.reportValidity()}});add.onclick=()=>{if(!quantity.reportValidity())return;wholesaleOrder.set(item.name,Number(quantity.value));refreshOrder();document.querySelector('#order-status').textContent=`${item.name}: ${quantity.value} unidades en tu selección.`;add.textContent='Agregado ✓';setTimeout(()=>{if(add.isConnected)add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido'},1600)};direct();controls.append(label,add);entry.append(button,controls,whatsapp);products.append(entry)});document.querySelectorAll('[data-filter]').forEach(b=>{const current=b.dataset.filter===filter;b.classList.toggle('active',current);b.setAttribute('aria-pressed',String(current))});document.querySelector('#catalog-description').textContent=filter==='pendientes'?`${items.filter(i=>!i.images.length).length} líneas sin fotografía confirmada. Las referencias se muestran únicamente para validar con Luna.`:descriptions[filter];document.querySelector('#catalog-count').textContent=activeItems.length<matching.length?`${activeItems.length} de ${matching.length} propuestas`:`${activeItems.length} ${activeItems.length===1?'propuesta':'propuestas'}`}
+function openDetail(item,trigger){const photos=item.images;if(trigger)returnFocus=trigger;activeItem=item;document.querySelector('#detail-title').textContent=item.name;document.querySelector('#detail-category').textContent=item.categories.map(c=>categoryNames[c]).join(' · ');document.querySelector('#detail-text').textContent=item.text;document.querySelector('#detail-presentation').textContent=item.presentation;document.querySelector('#detail-options').textContent=item.cat==='ambiente'?'Consultá contenido, aromas, accesorios y modo de uso.':item.cat==='objetos'?'Consultá materiales, medidas y accesorios incluidos.':'Consultá aromas, medidas y opciones de cada modelo.';document.querySelector('#product-position').textContent=`${activeItems.indexOf(item)+1} / ${activeItems.length}`;document.querySelectorAll('.detail-pagination button').forEach(b=>b.disabled=activeItems.length<2);const gallery=document.querySelector('#detail-gallery');gallery.replaceChildren();function show(id,i){setImage(document.querySelector('#detail-img'),id,`${item.name}, presentación ${i+1}`);document.querySelector('#photo-caption').textContent=photos.length>1?`Presentación ${i+1} de ${photos.length}`:'Una mirada al detalle';[...gallery.children].forEach((b,n)=>{b.classList.toggle('selected',n===i);b.setAttribute('aria-pressed',String(n===i))})}if(photos.length>1)photos.forEach((id,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`Ver ${item.name}, presentación ${i+1}`);b.innerHTML=`<img src="${asset(id,true)}" alt="" width="48" height="60">`;b.onclick=()=>show(id,i);gallery.append(b)});const hasPhoto=photos.length>0;dialog.classList.toggle('detail-without-photo',!hasPhoto);document.querySelector('#detail-img').hidden=!hasPhoto;document.querySelector('.zoom-open').hidden=!hasPhoto;if(hasPhoto)show(photos[0],0);else{document.querySelector('#detail-img').removeAttribute('src');document.querySelector('#detail-img').removeAttribute('srcset');document.querySelector('#detail-img').alt='';document.querySelector('#photo-caption').textContent='Sin foto disponible'}if(!dialog.open)dialog.showModal();else dialog.scrollTop=0}
+function render(filter='todos',expanded=false){activeFilter=filter;catalogExpanded=expanded;const query=normalizeSearch(document.querySelector('#catalog-search').value),terms=query.split(/\s+/).filter(Boolean);const matching=items.filter(x=>(filter==='pendientes'?!x.images.length:filter==='todos'||x.categories.includes(filter))&&terms.every(term=>normalizeSearch([x.name,...(x.aliases||[]),...x.categories.map(c=>categoryNames[c])].join(' ')).includes(term))).sort((a,b)=>Number(Boolean(b.images.length))-Number(Boolean(a.images.length)));activeItems=filter==='todos'&&!expanded&&!query?matching.slice(0,6):matching;document.querySelector('#clear-search').hidden=!query;document.querySelector('#catalog-empty').hidden=matching.length>0;const more=document.querySelector('#catalog-more');more.hidden=!!query||filter!=='todos'||matching.length<=6;more.setAttribute('aria-expanded',String(expanded));more.innerHTML=expanded?'Ver menos <span>↑</span>':`Ver más productos (${matching.length-6}) <span>↓</span>`;products.replaceChildren();products.classList.toggle('filtered',filter!=='todos');activeItems.forEach((item,i)=>{const button=document.createElement('button');button.className='product';button.type='button';button.style.animationDelay=`${Math.min(i*45,225)}ms`;button.setAttribute('aria-label',`Ver detalle de ${item.name}`);button.innerHTML=`${item.images.length?`<div class="product-photo">${productPhotoMarkup(item)}<span aria-hidden="true">Acercate al detalle ↗</span></div>`:''}<div class="product-title"><h3>${item.name}</h3><span aria-hidden="true">↗</span></div><p>${item.categories.map(c=>categoryNames[c]).join(' · ')}</p>${item.images.length?'':`<small class="pending-tag">Sin foto disponible</small>`}`;button.onclick=()=>openDetail(item,button);const entry=document.createElement('article');entry.className='product-entry'+(query?'':' entrance-waiting');if(query)entry.dataset.staged='true';const whatsapp=document.createElement('a');whatsapp.className='product-whatsapp';whatsapp.href='https://wa.me/5493515639634?text='+encodeURIComponent(`Hola, Luna. Me interesa «${item.name}». ¿Me cuentan las opciones, presentación y disponibilidad?`);whatsapp.target='_blank';whatsapp.rel='noopener';whatsapp.setAttribute('aria-label',`Consultar por ${item.name} en WhatsApp`);whatsapp.innerHTML='<span>Consultar por WhatsApp</span><img src="assets/whatsapp-small.svg" width="17" height="17" alt="">';const controls=document.createElement('div');controls.className='wholesale-controls';const label=document.createElement('label');label.textContent='Cantidad';const quantity=document.createElement('input');quantity.type='number';quantity.required=true;quantity.min='1';quantity.max='100000';quantity.step='1';quantity.value=String(wholesaleOrder.get(item.name)||1);quantity.setAttribute('aria-label',`Cantidad de ${item.name}`);label.append(quantity);const add=document.createElement('button');add.type='button';add.className='order-add';add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido';const direct=()=>{const q=Number(quantity.value);const valid=quantity.validity.valid&&Number.isInteger(q)&&q>0;whatsapp.href=valid?'https://wa.me/5493515639634?text='+encodeURIComponent(`¡Hola, Luna! ✨ Vi «${item.name}» en el catálogo y me encantó. ¿Te puedo encargar ${q} ${q===1?'unidad':'unidades'}?`):'#';whatsapp.setAttribute('aria-disabled',String(!valid))};quantity.addEventListener('input',direct);whatsapp.addEventListener('click',e=>{if(!quantity.checkValidity()){e.preventDefault();quantity.reportValidity()}});add.onclick=()=>{if(!quantity.reportValidity())return;wholesaleOrder.set(item.name,Number(quantity.value));refreshOrder();document.querySelector('#order-status').textContent=`${item.name}: ${quantity.value} unidades en tu selección.`;add.textContent='Agregado ✓';setTimeout(()=>{if(add.isConnected)add.textContent=wholesaleOrder.has(item.name)?'Actualizar cantidad':'Sumar al pedido'},1600)};direct();controls.append(label,add);entry.append(button,controls,whatsapp);products.append(entry)});document.querySelectorAll('[data-filter]').forEach(b=>{const current=b.dataset.filter===filter;b.classList.toggle('active',current);b.setAttribute('aria-pressed',String(current))});document.querySelector('#catalog-description').textContent=descriptions[filter];document.querySelector('#catalog-count').textContent=activeItems.length<matching.length?`${activeItems.length} de ${matching.length} propuestas`:`${activeItems.length} ${activeItems.length===1?'propuesta':'propuestas'}`}
 document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{clearTimeout(searchTimer);render(b.dataset.filter)});document.querySelectorAll('[data-select]').forEach(a=>a.addEventListener('click',()=>{clearTimeout(searchTimer);document.querySelector('#catalog-search').value='';render(a.dataset.select)}));document.querySelector('.close').onclick=()=>dialog.close();document.querySelector('#detail-contact').onclick=()=>{returnFocus=null;dialog.close()};dialog.addEventListener('close',()=>{if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true})});dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.target===dialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dialog.close()});function step(direction){const index=activeItems.indexOf(activeItem);openDetail(activeItems[(index+direction+activeItems.length)%activeItems.length])}document.querySelector('#previous-product').onclick=()=>step(-1);document.querySelector('#next-product').onclick=()=>step(1);render();
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('revealed');observer.unobserve(e.target)}}),{threshold:.06});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 const scenes=[{id:623265029,alt:'Vela de corazones apilados sobre una base decorativa',position:'50% 47%'},{id:628737162,alt:'Velas encendidas en vidrio acanalado sobre lino',position:'50% 65%'},{id:863112771,alt:'Souvenirs Luna en cuencos de madera con flores secas',position:'50% 50%'}];
@@ -873,9 +866,8 @@ function updateOrderSummary(){
 function validOrderQuantities(){for(const input of document.querySelectorAll('#order-lines input')){if(!input.reportValidity())return false}return true}
 document.querySelector('#whatsapp-inquiry').addEventListener('click',e=>{if(!validOrderQuantities())e.preventDefault()});document.querySelector('.whatsapp-float').addEventListener('click',e=>{if(!validOrderQuantities())e.preventDefault()});
 
-function productPhotoMarkup(item){const photos=item.images.length?item.images:(item.referenceImages||[]);if(!photos.length)return '';const id=photos[0],src=catalogCrops.has(id)?`assets/luna-${id}-catalog.webp`:asset(id,true);return `<img src="${src}" sizes="(max-width:700px) 44vw,30vw" alt="${item.images.length?item.name:'Imagen de referencia a confirmar para '+item.name}" width="640" height="853" loading="lazy">`}
+function productPhotoMarkup(item){const photos=item.images;if(!photos.length)return '';const id=photos[0],src=catalogCrops.has(id)?`assets/luna-${id}-catalog.webp`:asset(id,true);return `<img src="${src}" sizes="(max-width:700px) 44vw,30vw" alt="${item.name}" width="640" height="853" loading="lazy">`}
 
-function photoReviewText(item){if(item.name==='Bombones aromáticos de cera')return 'A confirmar: figuras de colores en IMG_1176. No se asignan conos de incienso a esta ficha.';if(item.name==='Aromatizadores textiles')return 'A confirmar: pulverizadores Home Fragrance, IMG_1011–1017.';return 'Falta foto identificada'}
 
 let searchTimer;
 document.querySelector('#catalog-search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>render(activeFilter),180)});

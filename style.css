@@ -162,3 +162,6 @@ body:has(dialog[open]) .gift-photo>img{object-fit:contain;background:var(--sand)
 #catalog-search::-webkit-search-cancel-button{-webkit-appearance:none}
 
 .collection h3{font-size:23px;line-height:1.25}.product h3{font-size:24px;line-height:1.2}.catalog-update-note{padding:15px;border:1px solid var(--gold);font-size:12px;line-height:1.8;color:var(--ink)}.catalog-update-note[hidden]{display:none}@media(max-width:700px){.collection h3{font-size:19px}.product h3{font-size:20px}.product>p{line-height:1.7}.filters button{max-width:100%;white-space:normal;text-align:center}}
+
+#detail.detail-without-photo[open]{width:min(600px,92vw);grid-template-columns:minmax(0,1fr)}
+#detail.detail-without-photo .detail-media{display:none}
