@@ -130,17 +130,19 @@ const items=[
     "presentation": "La fotografía muestra un box con velas. Consultá qué incluye la presentación que querés encargar."
   },
   {
-    "name": "Margaritas decorativas",
-    "cat": "molde",
+    "name": "Jabones con forma de margarita",
+    "cat": "souvenirs",
     "categories": [
-      "molde",
       "souvenirs"
     ],
     "images": [
       "catalogo-nov-1048"
     ],
-    "text": "Margaritas decorativas.",
-    "presentation": "Consultá con Luna las opciones y la disponibilidad."
+    "text": "Jabones con forma de margarita.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad.",
+    "aliases": [
+      "Margaritas decorativas"
+    ]
   },
   {
     "name": "Velas con forma de margaritas",
@@ -156,13 +158,17 @@ const items=[
     "name": "Velas en forma de flor",
     "cat": "molde",
     "categories": [
-      "molde"
+      "molde",
+      "souvenirs"
     ],
     "images": [
       "catalogo-oct-2523"
     ],
     "text": "Velas en forma de flor.",
-    "presentation": "Consultá con Luna las opciones y la disponibilidad."
+    "presentation": "La foto muestra el modelo. Consultá con Luna su presentación como souvenir.",
+    "aliases": [
+      "Velas en forma de flores"
+    ]
   },
   {
     "name": "Velas con forma de rosas",
@@ -178,11 +184,15 @@ const items=[
     "name": "Velas con forma de corazones",
     "cat": "molde",
     "categories": [
-      "molde"
+      "molde",
+      "souvenirs"
     ],
     "images": [],
     "text": "Velas con forma de corazones.",
-    "presentation": "Consultá con Luna las opciones para este modelo."
+    "presentation": "Consultá con Luna las opciones para este modelo.",
+    "aliases": [
+      "Velas en forma de corazones"
+    ]
   },
   {
     "name": "Velas con forma de ositos",
@@ -306,7 +316,7 @@ const items=[
     "presentation": "Consultá con Luna las opciones y la disponibilidad."
   },
   {
-    "name": "Portasahumerios con frases",
+    "name": "Portasahumerios de yeso con frases",
     "cat": "objetos",
     "categories": [
       "objetos"
@@ -314,8 +324,23 @@ const items=[
     "images": [
       "catalogo-nov-1076"
     ],
-    "text": "Portasahumerios con frases.",
-    "presentation": "Consultá con Luna las opciones y la disponibilidad."
+    "text": "Portasahumerios de yeso con frases.",
+    "presentation": "Consultá con Luna las opciones y la disponibilidad.",
+    "aliases": [
+      "Portasahumerios con frases"
+    ]
+  },
+  {
+    "name": "Apagavelas",
+    "cat": "objetos",
+    "categories": [
+      "objetos"
+    ],
+    "images": [
+      "catalogo-nov-1092"
+    ],
+    "text": "Apagavelas metálico con mango largo.",
+    "presentation": "Consultá con Luna la disponibilidad."
   },
   {
     "name": "Joyeros y alhajeros",
@@ -323,25 +348,28 @@ const items=[
     "categories": [
       "objetos"
     ],
-    "images": [
-      "catalogo-nov-1095"
-    ],
+    "images": [],
     "text": "Joyeros y alhajeros.",
-    "presentation": "Consultá con Luna las opciones y la disponibilidad.",
+    "presentation": "Consultá con Luna las opciones para este modelo.",
     "aliases": [
       "Joyeros",
       "Alhajeros"
     ]
   },
   {
-    "name": "Jaboneras",
+    "name": "Jaboneras de yeso con forma de concha",
     "cat": "objetos",
     "categories": [
       "objetos"
     ],
-    "images": [],
-    "text": "Jaboneras.",
-    "presentation": "Consultá con Luna las opciones para este modelo."
+    "images": [
+      "catalogo-nov-1126"
+    ],
+    "text": "Jaboneras de yeso con forma de concha.",
+    "presentation": "Consultá con Luna los colores disponibles.",
+    "aliases": [
+      "Jaboneras"
+    ]
   },
   {
     "name": "Organizadores decorativos",
@@ -378,16 +406,20 @@ const items=[
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
   },
   {
-    "name": "Figuras decorativas",
+    "name": "Figuras decorativas en yeso",
     "cat": "objetos",
     "categories": [
-      "objetos"
+      "objetos",
+      "souvenirs"
     ],
     "images": [
       "catalogo-nov-1080"
     ],
-    "text": "Figuras decorativas.",
-    "presentation": "La fotografía muestra una figura sobre una base decorativa. Consultá las piezas y presentaciones disponibles."
+    "text": "Figuras decorativas en yeso.",
+    "presentation": "La foto muestra el modelo. Consultá con Luna su presentación como souvenir.",
+    "aliases": [
+      "Figuras decorativas"
+    ]
   },
   {
     "name": "Adornos para mesas y estanterías",
@@ -409,26 +441,6 @@ const items=[
     ],
     "images": [],
     "text": "Piezas personalizadas en diferentes colores y diseños.",
-    "presentation": "Consultá con Luna las opciones para este modelo."
-  },
-  {
-    "name": "Velas en forma de flores",
-    "cat": "souvenirs",
-    "categories": [
-      "souvenirs"
-    ],
-    "images": [],
-    "text": "Velas en forma de flores.",
-    "presentation": "Consultá con Luna las opciones para este modelo."
-  },
-  {
-    "name": "Velas en forma de corazones",
-    "cat": "souvenirs",
-    "categories": [
-      "souvenirs"
-    ],
-    "images": [],
-    "text": "Velas en forma de corazones.",
     "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
@@ -472,17 +484,7 @@ const items=[
     "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
-    "name": "Figuras decorativas en yeso",
-    "cat": "souvenirs",
-    "categories": [
-      "souvenirs"
-    ],
-    "images": [],
-    "text": "Figuras decorativas en yeso.",
-    "presentation": "Consultá con Luna las opciones para este modelo."
-  },
-  {
-    "name": "Souvenirs en bolsitas de organza",
+    "name": "Jabones en bolsitas de organza",
     "cat": "souvenirs",
     "categories": [
       "souvenirs"
@@ -490,8 +492,11 @@ const items=[
     "images": [
       "catalogo-nov-1177"
     ],
-    "text": "Souvenirs en bolsitas de organza.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "text": "Jabones en bolsitas de organza.",
+    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación.",
+    "aliases": [
+      "Souvenirs en bolsitas de organza"
+    ]
   },
   {
     "name": "Souvenirs con etiquetas, nombres y fechas personalizadas",
