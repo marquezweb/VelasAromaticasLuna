@@ -484,6 +484,18 @@ const items=[
     "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
+    "name": "Velas souvenir con ositos",
+    "cat": "souvenirs",
+    "categories": [
+      "souvenirs"
+    ],
+    "images": [
+      "ositos"
+    ],
+    "text": "Velas en recipientes con ositos y lazos celestes.",
+    "presentation": "Consultá con Luna las opciones de personalización para tu evento."
+  },
+  {
     "name": "Jabones en bolsitas de organza",
     "cat": "souvenirs",
     "categories": [
@@ -553,17 +565,7 @@ const items=[
     "presentation": "Consultá con Luna las opciones para este modelo."
   },
   {
-    "name": "Aromatizadores textiles",
-    "cat": "ambiente",
-    "categories": [
-      "ambiente"
-    ],
-    "images": [],
-    "text": "Aromatizadores textiles.",
-    "presentation": "Consultá con Luna las opciones para este modelo."
-  },
-  {
-    "name": "Aromatizadores de ambientes",
+    "name": "Aromatizadores de ambientes / textiles",
     "cat": "ambiente",
     "categories": [
       "ambiente"
@@ -571,8 +573,12 @@ const items=[
     "images": [
       "catalogo-nov-1015"
     ],
-    "text": "Aromatizadores de ambientes.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
+    "text": "Aromatizadores de ambientes / textiles.",
+    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación.",
+    "aliases": [
+      "Aromatizadores de ambientes",
+      "Aromatizadores textiles"
+    ]
   },
   {
     "name": "Tabletas aromáticas para espacios pequeños",
@@ -583,18 +589,6 @@ const items=[
     "images": [],
     "text": "Tabletas aromáticas para espacios pequeños.",
     "presentation": "Consultá con Luna las opciones para este modelo."
-  },
-  {
-    "name": "Combos de productos aromáticos",
-    "cat": "ambiente",
-    "categories": [
-      "ambiente"
-    ],
-    "images": [
-      "catalogo-oct-2218"
-    ],
-    "text": "Combos de productos aromáticos.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
   },
   {
     "name": "Box de velas aromáticas",
@@ -621,18 +615,6 @@ const items=[
     "presentation": "La fotografía muestra una vela con forma de flor junto a piezas decorativas dentro de un box. Consultá los componentes de cada presentación."
   },
   {
-    "name": "Kit con cascada de humo y vela",
-    "cat": "regalos",
-    "categories": [
-      "regalos"
-    ],
-    "images": [
-      "catalogo-oct-2192"
-    ],
-    "text": "Kit con cascada de humo y vela.",
-    "presentation": "Consultá con Luna las opciones y la disponibilidad."
-  },
-  {
     "name": "Combos de difusores y aromatizadores",
     "cat": "regalos",
     "categories": [
@@ -654,18 +636,6 @@ const items=[
       "catalogo-oct-2481"
     ],
     "text": "Sets de velas con bandejas decorativas.",
-    "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
-  },
-  {
-    "name": "Box para el Día de la Madre",
-    "cat": "regalos",
-    "categories": [
-      "regalos"
-    ],
-    "images": [
-      "catalogo-oct-2178"
-    ],
-    "text": "Box para el Día de la Madre.",
     "presentation": "Fotografías de referencia de la línea. Consultá con Luna los modelos y qué incluye cada presentación."
   },
   {

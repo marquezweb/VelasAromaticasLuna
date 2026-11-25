@@ -19,11 +19,17 @@ node --check server.cjs
 
 También están disponibles `npm start` y `npm run check` si tenés npm instalado. El servidor incluido es una herramienta de vista previa local. La web también puede servirse como archivos estáticos.
 
+## Publicación en Vercel
+
+Importá el repositorio `marquezweb/VelasAromaticasLuna` y usá la raíz del repositorio como directorio del proyecto. `vercel.json` configura **Other**, ejecuta `node build.cjs` y publica `dist/`. El sitio funciona sin dependencias, variables de entorno ni un servidor propio.
+
+Para generar la carpeta localmente, ejecutá `node build.cjs` desde esta carpeta. La salida contiene el HTML, el CSS, el JavaScript y los recursos multimedia. Para desplegar desde la copia local con la CLI, ejecutá `npx vercel` desde la raíz del proyecto.
+
 ## Archivos
 
 - `index.html`: estructura y contenido de la página.
 - `style.css`: diseño adaptable, modo oscuro y efectos con soporte de movimiento reducido.
-- `app.js`: catálogo de 63 líneas de productos, filtros, detalles, galería y consultas.
+- `app.js`: catálogo de productos, filtros, detalles, galería y consultas.
 - `assets/`: imágenes optimizadas, logo, ícono de WhatsApp y video de souvenirs.
 - `server.cjs`: servidor local sin dependencias.
 
@@ -48,6 +54,6 @@ La web es estática y compatible con GitHub Pages. Si Pages está habilitado en 
 
 Fotografías seleccionadas de Contenido noviembre y oferta de productos proporcionada por la marca. Ver `PRODUCTOS-LUNA.md` y `assets/NOVIEMBRE-SOURCES.json`. Los nombres y rubros siguen la lista de Luna. Se agregan Cascadas de humo, confirmado por el cliente, y Hornitos aromáticos, documentado en una publicación de la marca. No se asignan medidas, fragancias ni mínimos sin confirmar.
 
-Las fichas incluyen 38 líneas con fotografías asignadas, 23 con foto vacía y 2 con referencias marcadas como imágenes a confirmar. El filtro rojo reúne estas 25 fichas pendientes de validación. Ver `FOTOS-PENDIENTES-LUNA.md`.
+El catálogo ofrece 36 fichas con foto. El filtro «Modelos sin foto» agrupa 23 fichas que se pueden consultar con Luna.
 
 El buscador filtra por nombre de producto y categoría, ignora tildes y mayúsculas y funciona junto con los filtros del catálogo.
